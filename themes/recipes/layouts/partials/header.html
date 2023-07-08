@@ -1,0 +1,12 @@
+<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      {{ with $.Site.Params.logo }}
+      <figure class="image is-32x32" style="margin-right: 0.5em; margin-top: 1.0em;">
+        <img alt="{{ . }}" class="is-rounded" src="{{ . }}" />
+      </figure>
+      {{ end }}
+      {{ $.Site.Title }}
+    </a>
+  </div>
+</nav>

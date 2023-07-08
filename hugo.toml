@@ -1,0 +1,9 @@
+baseURL = 'https://simplydelicio.us/'
+languageCode = 'en-us'
+title = 'SimplyDelicio.us'
+theme = "recipes"
+
+[params]
+  logo = "/logo.png"
+  author = "simplydelicio.us"
+  description = "Simple and Delicious Recipes"
