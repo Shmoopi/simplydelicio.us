@@ -15,9 +15,9 @@ featured_image: "/texas-beef-skillet.png"
 - [ ] ¾ Cup - Chopped Onions
 - [ ] 1 Can (16 Ounces) - Canned Tomatoes, cut up
 - [ ] 1 Can (15½ Ounces) - Red Kidney Beans
-- [ ] 2 Cup - Instant Rice
-- [ ] 3 Tbsp - Chopped Green Pepper
-- [ ] 1½ Tsp - Chili Powder
+- [ ] 2 Cups - Instant Rice
+- [ ] 3 Tbsps - Chopped Green Pepper
+- [ ] 1½ Tsps - Chili Powder
 - [ ] ½ Tsp - Garlic Salt
 - [ ] ¾ Cup - Shredded American Cheese
 - [ ] Corn Chips, crushed (for topping)

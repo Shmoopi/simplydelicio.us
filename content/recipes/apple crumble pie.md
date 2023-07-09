@@ -14,28 +14,28 @@ featured_image: "/crumble-apple-pie.png"
 ### Pie Filling
 
 - [ ] ⅔ Cup - Sugar
-- [ ] 2 Tbsp - All-Purpose Flour
+- [ ] 2 Tbsps - All-Purpose Flour
 - [ ] ¾ Tsp - Ground Cinnamon
 - [ ] 8 - Tart Apples (Granny Smith), Peeled, Cored, and Sliced
 
 ### Pie Crust
 
-- [ ] 1¼ Cup - All-Purpose Flour
+- [ ] 1¼ Cups - All-Purpose Flour
 - [ ] ¼ Tsp - Salt
 - [ ] ⅓ Cup - Shortening or Lard
-- [ ] 3-4 Tbsp - Cold Water
+- [ ] 3-4 Tbsps - Cold Water
 
 ### Crumble Topping
 
-- [ ] ½ Cup - All-Purpose Flour
-- [ ] ¼ Cup - Sugar
-- [ ] ¼ Cup - Unsalted Butter
+- [ ] 1½ Cups - All-Purpose Flour
+- [ ] ¾ Cup - Sugar
+- [ ] ¾ Cup - Unsalted Butter
 
 ## Directions
 
 ### Pie Filling
 
-1. Preheat your oven to 375°F (190°C).
+1. Preheat your oven to 400°F (205°C).
 2. In a large mixing bowl, combine the sugar, flour, and ground cinnamon.
 3. Add the peeled, cored, and sliced apples to the bowl and toss them with the sugar mixture until well coated.
 
@@ -56,6 +56,6 @@ featured_image: "/crumble-apple-pie.png"
 1. Spoon the apple mixture into the pie crust, spreading it evenly.
 2. In a separate bowl, combine the flour, sugar, and butter. Use a pastry cutter or your fingers to mix the ingredients until they resemble coarse crumbs.
 3. Sprinkle the crumb mixture over the apples, covering the entire surface.
-4. Place the pie dish on a baking sheet to catch any drips and bake in the preheated oven for about 50-60 minutes, or until the apples are tender and the crust is golden brown.
+4. Place the pie dish on a baking sheet to catch any drips and bake in the preheated oven for about 45-50 minutes, or until the apples are tender and the crust is golden brown. If pie browns too quickly, cover edge with foil.
 5. Remove the pie from the oven and let it cool on a wire rack for at least 1 hour before serving.
 6. Serve the apple crumb pie warm or at room temperature, and enjoy!

@@ -13,11 +13,11 @@ featured_image: "/sugar-cookie-anise.png"
 
 ### Cookies
 
-- [ ] 2 Cup - Unsalted Butter, Softened
-- [ ] 6 Cup - All-Purpose Flour
-- [ ] 2¼ Cup - Sugar
-- [ ] 4½ Tsp - Baking Powder
-- [ ] 3 Tbsp - Milk
+- [ ] 2 Cups - Unsalted Butter, Softened
+- [ ] 6 Cups - All-Purpose Flour
+- [ ] 2¼ Cups - Sugar
+- [ ] 4½ Tsps - Baking Powder
+- [ ] 3 Tbsps - Milk
 - [ ] 3 - Large Eggs
 - [ ] 1 Tsp - Vanilla Extract
 - [ ] 1 Tsp - Anise Oil
@@ -25,9 +25,9 @@ featured_image: "/sugar-cookie-anise.png"
 
 ### Icing
 
-- [ ] 3 Cup - Powdered Sugar
-- [ ] 3-4 Tbsp - Whole Milk
-- [ ] 1½ Tbsp - Light Corn Syrup
+- [ ] 3 Cups - Powdered Sugar
+- [ ] 3-4 Tbsps - Whole Milk
+- [ ] 1½ Tbsps - Light Corn Syrup
 - [ ] ½ Tsp - Vanilla Extract
 - [ ] (Optional) Food Coloring
 
