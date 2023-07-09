@@ -6,7 +6,7 @@ on:
       - 'LICENSE'
       - 'README.md'
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -15,7 +15,7 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
