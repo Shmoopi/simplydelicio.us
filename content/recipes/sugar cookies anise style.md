@@ -11,6 +11,8 @@ featured_image: "/sugar-cookie-anise.png"
 
 ## Ingredients
 
+### Cookies
+
 - [ ] 2 Cup - Unsalted Butter, Softened
 - [ ] 6 Cup - All-Purpose Flour
 - [ ] 2¼ Cup - Sugar
@@ -21,7 +23,17 @@ featured_image: "/sugar-cookie-anise.png"
 - [ ] 1 Tsp - Anise Oil
 - [ ] Dash of Salt
 
+### Icing
+
+- [ ] 3 Cup - Powdered Sugar
+- [ ] 3-4 Tbsp - Whole Milk
+- [ ] 1½ Tbsp - Light Corn Syrup
+- [ ] ½ Tsp - Vanilla Extract
+- [ ] (Optional) Food Coloring
+
 ## Directions
+
+### Cookies
 
 1. Preheat the oven to 375°F (190°C).
 2. In a large mixing bowl, cream together the softened butter and sugar until light and fluffy.
@@ -36,3 +48,10 @@ featured_image: "/sugar-cookie-anise.png"
 11. Bake in the preheated oven for about 7-8 minutes, or until the edges turn golden brown.
 12. Remove from the oven and let the cookies cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.
 13. Once cooled, store the cookies in an airtight container to maintain their freshness.
+
+### Icing
+
+1. Stir together the sugar, 3 tablespoons milk, corn syrup, and vanilla in a medium-sized bowl until combined.
+2. If the icing is too thick, add the remaining milk, until the icing is thick but spreadable. If it's too thin, add a little more powdered sugar until the desired texture is reached. If you drizzle a little of the icing, it will hold for a few seconds before dripping. That is when you know it’s the right consistency and is ready to use.
+3. If coloring the icing with different colors, divide into bowls and color as desired at this point.
+4. Pipe or spread icing onto cookies and decorate, as desired.

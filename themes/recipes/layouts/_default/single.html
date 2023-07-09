@@ -4,9 +4,13 @@
     <header>
       <div class="is-flex">
         {{ with .Params.featured_image }}
-        <figure class="image is-96x96" style="margin-right: 0.5em;">
-          <img alt="{{ . }}" class="is-rounded" src="{{ . }}" />
-        </figure>
+        <div class="zoom-without-container">
+          <figure class="image is-96x96" style="margin-right: 0.5em;">
+            <a href="{{ . }}">
+              <img alt="{{ . }}" class="is-rounded" src="{{ . }}" />
+            </a>
+          </figure>
+        </div>
         {{ end }}
         <div>
           <h1 class="title is-1">

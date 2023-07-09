@@ -10,3 +10,15 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bulma.css">
 </head>
+
+<style>
+/* Without Container */
+.zoom-without-container {
+  transition: transform .2s; /* Animation */
+}
+.zoom-without-container:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+

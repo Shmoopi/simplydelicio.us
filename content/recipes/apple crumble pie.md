@@ -33,13 +33,13 @@ featured_image: "/crumble-apple-pie.png"
 
 ## Directions
 
-### Filling
+### Pie Filling
 
 1. Preheat your oven to 375°F (190°C).
 2. In a large mixing bowl, combine the sugar, flour, and ground cinnamon.
 3. Add the peeled, cored, and sliced apples to the bowl and toss them with the sugar mixture until well coated.
 
-### Crust
+### Pie Crust
 
 1. In a mixing bowl, stir together flour and salt. Cut in shortening or lard until pieces are the size of small peas.
 2. Sprinkle 1 tablespoon of the water over part of the mixture, gently toss with a fork. Push to side of bowl. Repeat till all is moistened.
@@ -51,7 +51,7 @@ featured_image: "/crumble-apple-pie.png"
 8. Trim to ½ inch beyond edge of pie plate, fold under extra pastry.
 9. Make a fluted, rope-shape, or scalloped edge.
 
-### Combining
+### Crumble Topping
 
 1. Spoon the apple mixture into the pie crust, spreading it evenly.
 2. In a separate bowl, combine the flour, sugar, and butter. Use a pastry cutter or your fingers to mix the ingredients until they resemble coarse crumbs.
