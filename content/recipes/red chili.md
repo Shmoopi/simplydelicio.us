@@ -46,6 +46,7 @@ featured_image: "/red-chili.png"
 ### Optional
 
 - [ ] 1 Box of Macaroni Noodles
+- [ ] 2 Tbsps of Butter
 
 ## Directions
 
@@ -70,7 +71,11 @@ featured_image: "/red-chili.png"
 8. Add beef broth, crushed tomatoes, diced tomatoes, tomato paste, and kidney beans.
 9. Bring heat down to a simmer and allow to cook down.
 10. Add all of the spices to taste.  Use smell and taste to determine amounts based on your preferences.  Taste and continue seasoning while the chili cooks down.
-11. Chili is done cooking when the beans have softened.  Make sure to stir every once in a while and make sure it doesnt thicken up too much.  If the chili is too thick, add more beef broth or water.  Depending on temperature, this will take between 30-60 minutes.  
-11.a When chili is nearing completion, bring another large pot with water to boil. 
-11.b Add macaroni noodles and cook.
+11. Chili is done cooking when the beans have softened.  Make sure to stir every once in a while and make sure it doesnt thicken up too much.  If the chili is too thick, add more beef broth or water.  Depending on temperature, this will take between 30-60 minutes.
 
+### Macaroni
+
+1. When chili is nearing completion, bring another large pot with water to boil. 
+2. Add macaroni noodles and cook.
+3. Drain noodles, but save a small amount of pasta water to add to chili.
+4. Add a small amount of butter to keep the pasta from getting sticky.
