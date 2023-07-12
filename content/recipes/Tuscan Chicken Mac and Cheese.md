@@ -1,76 +1,73 @@
 ---
 title: "Tuscan Chicken Mac and Cheese"
 description: "A creamy mac and cheese with delicious chicken, spinach, and sun dried tomatoes"
-summary: ""A creamy mac and cheese with delicious chicken, spinach, and sun dried tomatoes"
+summary: "A creamy mac and cheese with delicious chicken, spinach, and sun dried tomatoes"
 date: 2023-07-12
 draft: false
 time: "1h"
 tags: ["cheese", "spinach", "macaroni", "dinner"]
-featured_image: "/red-chili.png"
+featured_image: "/tuscan-chicken-mac-and-cheese.png"
 ---
 
 ## Ingredients
 
 ### Base
 
-- [ ] 2 Tbsps Olive Oil
-- [ ] 1 Yellow Onion
-- [ ] 1 Green Pepper
-- [ ] 1 Red Pepper
-- [ ] 4 Cloves of Garlic
-- [ ] 2 Lbs Ground Beef (85-15)
-- [ ] 3 Cups Beef Broth
-- [ ] 28 oz Crushed Tomatoes
-- [ ] 16 oz Diced Tomatoes
-- [ ] 6 oz Tomato Paste
-- [ ] 16-32 oz Kidney Beans
+- [ ] 2 - Large Chicken Breasts or 4 Boneless, Skinless Chicken Thighs
+- [ ] 1 Tbsp - Olive Oil
+- [ ] 2 Tbsps - Butter
+- [ ] 1 - Yellow Onion
+- [ ] 6 - Cloves of Garlic
+- [ ] ⅓ - Cup White Wine (Can Substitue With Chicken Broth)
+- [ ] 9 oz - Jarred Sun Dried Tomatoes in Oil
+- [ ] 3 Tbsps - Flour
+- [ ] 2 Cups - Chicken Broth
+- [ ] 3 Cups - Light Cream or Milk
+- [ ] 10 oz - Elbow Macaroni Noodles
+- [ ] 3 Cups - Baby Spinach
+- [ ] 2 Tbsps - Fresh Parsley
+- [ ] 1 Cup - Parmesan - Freshly Grated
+- [ ] ¾ Cup - Mozzarella Cheese - Shredded
+- [ ] ½ Cup - Cheddar Cheese - Shredded
+- [ ] ½ Cup - Gruyere Cheese - Shredded
 
 ### Spices
 
-- [ ] Ancho Chili Powder
-- [ ] Chili Powder
-- [ ] Coriander
-- [ ] Dried Oregano
-- [ ] Paprika
-- [ ] Cumin
+- [ ] Paprika (Sweet or Smokey)
+- [ ] Dried Parsley
 - [ ] Salt
 - [ ] Pepper
-
-### Toppings
-
-- [ ] Jalapeños
-- [ ] Cheddar Cheese
-- [ ] Sour Cream
-- [ ] Lime Juice
-
-### Optional
-
-- [ ] 1 Box of Macaroni Noodles
+- [ ] Dried Italian Herbs
 
 ## Directions
 
 ### Preperation
 
-1. Dice yellow onion and set aside in a bowl.
-2. Dice green and red peppers and se them aside in a seperate bowl from the onion.
-3. Crush, peel, and finely chop garlic and set aside.
-4. Drain and wash kidney beans.
-5. Thinly chop or dice jalapeños to your liking.  Remove seeds.  If you prefer a bit more spice, leave the inner rind, other wise, remove it.
-6. Shred cheddar cheese.
+1. Pound down chicken breast to an inch thick, or cut in half making 4 even sized breasts.  If using chicken thighs, clean and lay them out.
+2. Using a paper towel, pat dry the chicken.
+3. Lightly coat the chicken with olive oil and add the spices to your liking.  More salt will give the chicken a crispier outside.
+4. Dice yellow onion and set aside in a bowl.
+5. Crush, peel, and finely chop garlic and set aside.
+6. Drain the sun dried tomatoes, keeping about 2 tablespoons of the oil from the jar, discarding the rest.
+7. Chop the sun dried tomatoes to your liking. 
+8. Shred the cheeses and set aside in a bowl.  Using blocks of cheese and shredding them yourself will give the best results, as pre-shredded cheeses using an anti-caking agent and may cause the end result to be gritty or less creamy.
 
-### Chili
+### Cooking
 
 1. Heat a large pot on medium on stovetop.
 2. When hot, add olive oil and swirl around the pot to coat the bottom.
-3. Add diced green and red peppers and let cook down for 3-5 minutes.  This is to cook off some of the extra moisture and allow them to soften up a little. Stir around to make sure nothing sticks.
-4. Add diced onion and cook for another 5 minutes.  The peppers and onion should be a softened, but not mushy.  Stir every few minutes.
-5. Add garlic and let cook for 2 minutes.  Everything should still be a little crunchy, but not raw.
-6. Once everything is to your desired crunch level, move everything to the outside edge of the pot and add the ground beef.  
-7. Break up the ground beef into smaller clumps and cook until it is browned.
-8. Add beef broth, crushed tomatoes, diced tomatoes, tomato paste, and kidney beans.
-9. Bring heat down to a simmer and allow to cook down.
-10. Add all of the spices to taste.  Use smell and taste to determine amounts based on your preferences.  Taste and continue seasoning while the chili cooks down.
-11. Chili is done cooking when the beans have softened.  Make sure to stir every once in a while and make sure it doesnt thicken up too much.  If the chili is too thick, add more beef broth or water.  Depending on temperature, this will take between 30-60 minutes.  
-11.a When chili is nearing completion, bring another large pot with water to boil. 
-11.b Add macaroni noodles and cook.
+3. Place the chicken in the pan and cook until golden brown on the outside and cooked fully on the inside.
+4. Transfer the cooked chicken to a plate and tent with foil to keep warm.
+5. In the same pot; add the butter and diced onion and cook until the onion starts getting translucent.
+6. Add the garlic and cook for another 2 minutes.
+7. Pour in the white wine and allow to simmer for five minutes, or until it begins to reduce down.
+8. Add the sun dried tomatoes and the preserved oil.  Cook for 1-2 minutes.
+9. Mix in the flour and allow to cook for another minute.
+10. Add in the chicken broth, 2.5 cups of light cream (or milk), italian herbs, salt, and pepper, and bring to a low simmer.
+11. Add the macaroni to the pot and stir occasionally.  Let it cook until the macaroni is al dente.
+12. Wash off the spinach and add to the pot when the macaroni is done cooking, stirring until it is wilted.
+13. Remove the pot from the heat and add the cheese in quickly.  Stir until all of the cheese is melted in, adding in salt and pepper to taste.
+14. Add in the remaining cream, in increments, to get to your desired consistency.  Keep in mind that it will continue to thicken as it cools.
+15. Slice the cooked chicken into strips and mix into the pasta, adding any juices leftover on the plate.
+16. Sprinkle with parsley and serve.
 
