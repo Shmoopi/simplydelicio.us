@@ -13,17 +13,17 @@ featured_image: "/red-chili.png"
 
 ### Base
 
-- [ ] 2 Tbsps Olive Oil
-- [ ] 1 Yellow Onion
-- [ ] 1 Green Pepper
-- [ ] 1 Red Pepper
-- [ ] 4 Cloves of Garlic
-- [ ] 2 Lbs Ground Beef (85-15)
-- [ ] 3 Cups Beef Broth
-- [ ] 28 oz Crushed Tomatoes
-- [ ] 16 oz Diced Tomatoes
-- [ ] 6 oz Tomato Paste
-- [ ] 16-32 oz Kidney Beans
+- [ ] 2 Tbsps - Olive Oil
+- [ ] 1 - Yellow Onion
+- [ ] 1 - Green Pepper
+- [ ] 1 - Red Pepper
+- [ ] 4 Cloves - Garlic
+- [ ] 2 Lbs - Ground Beef (85-15)
+- [ ] 3 Cups - Beef Broth
+- [ ] 28 oz - Crushed Tomatoes
+- [ ] 16 oz - Diced Tomatoes
+- [ ] 6 oz - Tomato Paste
+- [ ] 16-32 oz - Kidney Beans
 
 ### Spices
 
@@ -45,8 +45,8 @@ featured_image: "/red-chili.png"
 
 ### Optional
 
-- [ ] 1 Box of Macaroni Noodles
-- [ ] 2 Tbsps of Butter
+- [ ] 1 Box - Macaroni Noodles
+- [ ] 2 Tbsps - Butter
 
 ## Directions
 
@@ -66,7 +66,7 @@ featured_image: "/red-chili.png"
 3. Add diced green and red peppers and let cook down for 3-5 minutes.  This is to cook off some of the extra moisture and allow them to soften up a little. Stir around to make sure nothing sticks.
 4. Add diced onion and cook for another 5 minutes.  The peppers and onion should be a softened, but not mushy.  Stir every few minutes.
 5. Add garlic and let cook for 2 minutes.  Everything should still be a little crunchy, but not raw.
-6. Once everything is to your desired crunch level, move everything to the outside edge of the pot and add the ground beef.  
+6. Once everything is to your desired crunch level, move everything to the outside edge of the pot and add the ground beef.
 7. Break up the ground beef into smaller clumps and cook until it is browned.
 8. Add beef broth, crushed tomatoes, diced tomatoes, tomato paste, and kidney beans.
 9. Bring heat down to a simmer and allow to cook down.
@@ -75,7 +75,7 @@ featured_image: "/red-chili.png"
 
 ### Macaroni
 
-1. When chili is nearing completion, bring another large pot with water to boil. 
+1. When chili is nearing completion, bring another large pot with water to boil.
 2. Add macaroni noodles and cook.
 3. Drain noodles, but save a small amount of pasta water to add to chili.
 4. Add a small amount of butter to keep the pasta from getting sticky.

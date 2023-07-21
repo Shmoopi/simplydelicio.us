@@ -5,7 +5,7 @@ summary: "A fun and delicious dessert resembling dirt"
 date: 2023-07-08
 draft: false
 time: "30m"
-tags: ["cake", "dessert"]
+tags: ["cake", "parfait", "dessert"]
 featured_image: "/dirt-cake.png"
 ---
 

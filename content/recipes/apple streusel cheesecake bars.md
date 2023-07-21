@@ -4,7 +4,7 @@ description: "Delicious and sweet apple streusel cheesecake bar recipe"
 summary: "Delicious and sweet apple streusel cheesecake bar recipe"
 date: 2023-07-08
 draft: false
-time: "3h40m"
+time: "3h 40m"
 tags: ["apple", "dessert", "fruit"]
 featured_image: "/apple-streusel-cheesecake-bars.png"
 ---

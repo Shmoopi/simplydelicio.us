@@ -49,7 +49,7 @@ featured_image: "/tuscan-chicken-mac-and-cheese.png"
 4. Dice yellow onion and set aside in a bowl.
 5. Crush, peel, and finely chop garlic and set aside.
 6. Drain the sun dried tomatoes, keeping about 2 tablespoons of the oil from the jar, discarding the rest.
-7. Chop the sun dried tomatoes to your liking. 
+7. Chop the sun dried tomatoes to your liking.
 8. Shred the cheeses and set aside in a bowl.  Using blocks of cheese and shredding them yourself will give the best results, as pre-shredded cheeses using an anti-caking agent and may cause the end result to be gritty or less creamy.
 
 ### Cooking
