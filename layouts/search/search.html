@@ -1,20 +1,24 @@
 {{ define "main" }}
+.
 <style>
     .title {
         text-align: center;
     }
 </style>
-
 <section class="section">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-half">
-                <h1 class="title">404 Recipe Not Found!</h1>
+                <h3 class="title" id="title">Search for a recipe...</h3>
             </div>
         </div>
-        <figure class="image" style="margin-right: 0.5em;">
-            <img alt="/404.png" class="is-rounded" src="/404.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/>
-        </figure>
+        <div id="results">
+            <!-- Search results go here -->
+        </div>
     </div>
 </section>
+
+<!-- include our search form -->
+{{ partial "search-form.html" . }}
+
 {{ end }}

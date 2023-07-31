@@ -1,6 +1,5 @@
 ---
 title: "Red Chili"
-description: "A flavorful chili with red beans"
 summary: "A flavorful chili with red beans"
 date: 2023-07-11
 draft: false

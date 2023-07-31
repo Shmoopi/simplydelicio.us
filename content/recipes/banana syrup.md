@@ -1,6 +1,5 @@
 ---
 title: "Banana Syrup"
-description: "A sweet and flavorful banana syrup recipe"
 summary: "A sweet and flavorful banana syrup recipe"
 date: 2023-07-08
 draft: false

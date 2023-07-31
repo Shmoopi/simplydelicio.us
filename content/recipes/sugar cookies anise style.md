@@ -1,6 +1,5 @@
 ---
 title: "Anise Sugar Cookies"
-description: "Delicious and buttery sugar cookies with a hint of vanilla and anise"
 summary: "Delicious and buttery sugar cookies with a hint of vanilla and anise"
 date: 2023-07-08
 draft: false

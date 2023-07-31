@@ -1,0 +1,25 @@
+<script>
+window.store = {
+    // You can specify your blog section only:
+    {{ range where .Site.RegularPages "Section" "recipes" }}
+    // For all pages in your site, use "range .Site.Pages"
+    // You can use any unique identifier here
+    "{{ .Permalink }}": {
+        // You can customize your searchable fields using any .Page parameters
+        "title": "{{ .Title  }}",
+        "tags": [{{ range .Params.Tags }}"{{ . }}",{{ end }}],
+        "tags2": "{{ range .Params.Tags }} {{ . }}, {{ end }}",
+        "content": {{ .Content | plainify }}, // Strip out HTML tags
+        "summary": "{{ .Summary }}",
+        "time": "{{ .Params.Time }}",
+        "featured_image": {{ .Params.featured_image }},
+        "url": "{{ .Permalink }}"
+    },
+    {{ end }}
+}
+</script>
+
+{{ $lunr := resources.Get "js/lunr.js" | minify }}
+<script src="{{ $lunr.Permalink }}"></script>
+{{ $search := resources.Get "js/search.js" | minify }}
+<script src="{{ $search.Permalink }}"></script>

@@ -1,6 +1,5 @@
 ---
 title: "Dirt Cake"
-description: "A fun and delicious dessert resembling dirt"
 summary: "A fun and delicious dessert resembling dirt"
 date: 2023-07-08
 draft: false

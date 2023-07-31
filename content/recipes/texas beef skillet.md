@@ -1,6 +1,5 @@
 ---
 title: "Texas Beef Skillet"
-description: "A hearty and flavorful beef skillet with a Tex-Mex twist"
 summary: "A hearty and flavorful beef skillet with a Tex-Mex twist"
 date: 2023-07-08
 draft: false

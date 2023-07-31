@@ -1,6 +1,5 @@
 ---
 title: "Buttermilk Scones"
-description: "Delicious and tender scones made with buttermilk and currants"
 summary: "Delicious and tender scones made with buttermilk and currants"
 date: 2023-07-08
 draft: false

@@ -1,6 +1,5 @@
 ---
 title: "Tuscan Chicken Mac and Cheese"
-description: "A creamy mac and cheese with delicious chicken, spinach, and sun dried tomatoes"
 summary: "A creamy mac and cheese with delicious chicken, spinach, and sun dried tomatoes"
 date: 2023-07-12
 draft: false

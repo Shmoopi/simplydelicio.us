@@ -1,4 +1,34 @@
-<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+<style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Style the search input and button */
+  .input {
+    max-width: 200px;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+
+  .input::placeholder {
+    color: #aaa;
+  }
+
+  .button.is-info {
+    background-color: #555;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-right: 1.0em;
+  }
+</style>
+
+<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation"
+  style="display: flex; justify-content: space-between; align-items: center;">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
       {{ with $.Site.Params.logo }}
@@ -9,4 +39,17 @@
       {{ $.Site.Title }}
     </a>
   </div>
+  <!-- Add the search bar here -->
+  <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
+    <div class="field has-addons">
+      <div class="control">
+        <input id="search-input" name="query" class="input" type="text" placeholder="Search Recipes..." />
+      </div>
+      <div class="control">
+        <button type="submit" value="search" class="button is-info">
+          Search
+        </button>
+      </div>
+    </div>
+  </form>
 </nav>

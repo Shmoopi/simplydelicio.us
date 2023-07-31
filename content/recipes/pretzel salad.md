@@ -1,6 +1,5 @@
 ---
 title: "Pretzel Salad"
-description: "A delightful sweet and salty dessert salad with a pretzel crust, creamy filling, and fruity raspberry layer"
 summary: "A delightful sweet and salty dessert salad with a pretzel crust, creamy filling, and fruity raspberry layer"
 date: 2023-07-08
 draft: false
