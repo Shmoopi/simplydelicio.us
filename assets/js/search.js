@@ -39,16 +39,14 @@ function createRecipeColumns(recipes) {
 function createRecipeHTML(recipe) {
     return `
     <a class="box" href="${recipe.url}" aria-label="${recipe.title}">
-      <div class="is-flex">
-        <figure class="image is-48x48" style="margin-right: 0.5em;">
-          <img alt="/images/small${recipe.featured_image}" class="is-rounded" src="/images/small${recipe.featured_image}">
-        </figure>
-        <div>
-          <div>${recipe.title}</div>
-          <small class="has-text-grey">${recipe.summary}</small>
-        </div>
+      <figure class="image is-64x64" style="display:block;margin-left:auto;margin-right:auto;">
+        <img alt="/images/small${recipe.featured_image}" class="is-rounded" src="/images/small${recipe.featured_image}">
+      </figure>
+      <div>
+        <div style="margin-top: 0.5em;text-align: center;">${recipe.title}</div>
+        <small class="has-text-grey" style="margin-top: 0.5em;text-align: center;display: block;">${recipe.summary}</small>
       </div>
-      <div style="margin-top: 0.5em;">
+      <div style="margin-top: 1.0em;text-align: center;">
         <span class="tag is-primary is-light">${recipe.time}</span>
         ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('\n')}
       </div>

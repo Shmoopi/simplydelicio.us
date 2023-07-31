@@ -3,7 +3,7 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column">
-        <div style="margin-bottom: 1em;">
+        <div style="margin-bottom: 1em;text-align: center;">
           {{ range .Site.Taxonomies.tags }}
           <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
           {{ end }}
