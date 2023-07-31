@@ -11,28 +11,32 @@
       </div>
     </div>
 
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "recipes") }}
+
     <div class="columns is-centered">
       <div class="column">
-        {{ range $index, $page := where .Site.RegularPages "Section" "recipes" }}
+        {{ range $index, $page := $paginator.Pages }}
           {{ if eq (mod $index 4) 0 }}{{ partial "box.html" $page }}{{ end }}
         {{ end }}
       </div>
       <div class="column">
-        {{ range $index, $page := where .Site.RegularPages "Section" "recipes" }}
+        {{ range $index, $page := $paginator.Pages }}
           {{ if eq (mod $index 4) 1 }}{{ partial "box.html" $page }}{{ end }}
         {{ end }}
       </div>
       <div class="column">
-        {{ range $index, $page := where .Site.RegularPages "Section" "recipes" }}
+        {{ range $index, $page := $paginator.Pages }}
           {{ if eq (mod $index 4) 2 }}{{ partial "box.html" $page }}{{ end }}
         {{ end }}
       </div>
       <div class="column">
-        {{ range $index, $page := where .Site.RegularPages "Section" "recipes" }}
+        {{ range $index, $page := $paginator.Pages }}
           {{ if eq (mod $index 4) 3 }}{{ partial "box.html" $page }}{{ end }}
         {{ end }}
       </div>
     </div>
   </div>
 </section>
+{{ partial "pagination.html" . }}
+&nbsp;
 {{ end }}
