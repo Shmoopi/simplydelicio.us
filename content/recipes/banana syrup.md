@@ -4,6 +4,7 @@ summary: "A sweet and flavorful banana syrup recipe"
 date: 2023-07-08
 draft: false
 time: "10m"
+output: "3 cups"
 tags: ["banana", "syrup", "fruit", "breakfast"]
 featured_image: "/banana-syrup.png"
 ---

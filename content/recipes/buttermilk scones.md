@@ -4,6 +4,7 @@ summary: "Delicious and tender scones made with buttermilk and currants"
 date: 2023-07-08
 draft: false
 time: "30m"
+output: "8 scones"
 tags: ["scones", "baking", "breakfast"]
 featured_image: "/buttermilk-scones.png"
 ---

@@ -4,6 +4,7 @@ summary: "A creamy mac and cheese with delicious chicken, spinach, and sun dried
 date: 2023-07-12
 draft: false
 time: "1h"
+output: "1 skillet"
 tags: ["cheese", "spinach", "macaroni", "dinner"]
 featured_image: "/tuscan-chicken-mac-and-cheese.png"
 ---

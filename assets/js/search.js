@@ -48,6 +48,7 @@ function createRecipeHTML(recipe) {
       </div>
       <div style="margin-top: 1.0em;text-align: center;">
         <span class="tag is-primary is-light">${recipe.time}</span>
+        <span class="tag is-info is-light">${recipe.output}</span>
         ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('\n')}
       </div>
     </a>
@@ -80,6 +81,7 @@ if (query) {
             boost: 10
         })
         this.field('time')
+        this.field('output')
         this.field('featured_image')
 
         for (const key in window.store) {
@@ -89,6 +91,7 @@ if (query) {
                 tags2: window.store[key].tags2,
                 summary: window.store[key].summary,
                 time: window.store[key].time,
+                output: window.store[key].output,
                 featuredImage: window.store[key].featured_image,
                 content: window.store[key].content
             })

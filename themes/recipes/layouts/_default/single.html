@@ -2,6 +2,7 @@
 <style>
   .content ul {
     list-style-type: none;
+    margin-left: 0.5em;
   }
 </style>
 <div class="section">
@@ -28,6 +29,7 @@
       </div>
       <div style="margin-top: 1em;">
         <span class="tag is-primary is-light">{{ .Params.Time }}</span>
+        <span class="tag is-info is-light">{{ .Params.Output }}</span>
         {{ range .Params.Tags }}
         <a class="tag" href="/tags/{{ . }}">{{ . }}</a>
         {{ end }}

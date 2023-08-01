@@ -4,6 +4,7 @@ summary: "A delicious apple pie with a crumble topping"
 date: 2023-07-08
 draft: false
 time: "1h 30m"
+output: "9\" pie"
 tags: ["apple", "pie", "fruit", "dessert"]
 featured_image: "/crumble-apple-pie.png"
 ---

@@ -4,6 +4,7 @@ summary: "A flavorful chili with red beans"
 date: 2023-07-11
 draft: false
 time: "1h 30m"
+output: "1 pot"
 tags: ["chili", "soup", "hearty", "dinner"]
 featured_image: "/red-chili.png"
 ---

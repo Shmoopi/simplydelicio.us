@@ -12,6 +12,7 @@ window.store = {
         "content": {{ .Content | plainify }}, // Strip out HTML tags
         "summary": "{{ .Summary }}",
         "time": "{{ .Params.Time }}",
+        "output": "{{ .Params.Output }}",
         "featured_image": {{ .Params.featured_image }},
         "url": "{{ .Permalink }}"
     },

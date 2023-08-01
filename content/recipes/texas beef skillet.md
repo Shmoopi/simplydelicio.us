@@ -4,6 +4,7 @@ summary: "A hearty and flavorful beef skillet with a Tex-Mex twist"
 date: 2023-07-08
 draft: false
 time: "30m"
+output: "1 skillet"
 tags: ["beef", "tex-mex", "dinner"]
 featured_image: "/texas-beef-skillet.png"
 ---

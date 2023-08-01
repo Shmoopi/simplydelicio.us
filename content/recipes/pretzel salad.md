@@ -4,6 +4,7 @@ summary: "A delightful sweet and salty dessert salad with a pretzel crust, cream
 date: 2023-07-08
 draft: false
 time: "45m"
+output: "1 pan"
 tags: ["dessert", "parfait", "salad"]
 featured_image: "/pretzel-salad.png"
 ---

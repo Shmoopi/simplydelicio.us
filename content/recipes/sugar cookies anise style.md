@@ -4,6 +4,7 @@ summary: "Delicious and buttery sugar cookies with a hint of vanilla and anise"
 date: 2023-07-08
 draft: false
 time: "45m"
+output: "60 cookies"
 tags: ["cookies", "baking", "dessert"]
 featured_image: "/sugar-cookie-anise.png"
 ---
