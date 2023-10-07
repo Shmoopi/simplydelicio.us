@@ -5,7 +5,7 @@ date: 2023-08-23
 draft: false
 time: "30m"
 output: "4 servings"
-tags: ["butter chicken", "marinade", "indian"]
+tags: ["chicken", "marinade", "indian"]
 featured_image: "/butter-chicken.png"
 ---
 

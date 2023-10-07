@@ -5,7 +5,7 @@ date: 2023-08-23
 draft: false
 time: "4-8hr"
 output: "8-10 servings"
-tags: ["breakfast", "casserole", "slow cooker", "cheese", "sausage"]
+tags: ["breakfast", "casserole", "eggs", "cheese", "sausage"]
 featured_image: "/crockpot-breakfast-casserole.png"
 ---
 
