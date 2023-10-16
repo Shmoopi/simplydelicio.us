@@ -17,7 +17,7 @@ featured_image: "/buttermilk-biscuits.png"
 - [ ] 1 Tbsp - Sugar
 - [ ] ½ Tsp - Baking Soda
 - [ ] 1½ Tsps - Baking Powder
-- [ ] ¼ Cup - Milk
+- [ ] ½ Cup - Milk
 - [ ] ½ Cup - Buttermilk
 - [ ] Melted Butter (for brushing on top of baked biscuits)
 
