@@ -70,4 +70,3 @@ featured_image: "/tuscan-chicken-mac-and-cheese.png"
 14. Add in the remaining cream, in increments, to get to your desired consistency.  Keep in mind that it will continue to thicken as it cools.
 15. Slice the cooked chicken into strips and mix into the pasta, adding any juices leftover on the plate.
 16. Sprinkle with parsley and serve.
-
