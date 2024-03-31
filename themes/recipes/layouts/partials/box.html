@@ -6,13 +6,21 @@
     </figure>
     {{ end }}
     <div>
-      <div style="margin-top: 0.5em;text-align: center;">{{ .Title }}</div>
-      <small class="has-text-grey" style="margin-top: 0.5em;text-align: center;display: block;">{{ .Summary }}</small>
+      {{ with .Title }}
+      <div style="margin-top: 0.5em;text-align: center;">{{ . }}</div>
+      {{ end }}
+      {{ with .Summary }}
+      <small class="has-text-grey" style="margin-top: 0.5em;text-align: center;display: block;">{{ . }}</small>
+      {{ end }}
     </div>
   <!-- </div> -->
   <div style="margin-top: 1.0em;text-align: center;">
-    <span class="tag is-primary is-light">{{ .Params.Time }}</span>
-    <span class="tag is-info is-light">{{ .Params.Output }}</span>
+    {{ with .Params.Time }}
+    <span class="tag is-primary is-light">{{ . }}</span>
+    {{ end }}
+    {{ with .Params.Output}}
+    <span class="tag is-info is-light">{{ . }}</span>
+    {{ end }}
     {{ range .Params.Tags }}
     <span class="tag">{{ . }}</span>
     {{ end }}

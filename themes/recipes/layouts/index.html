@@ -4,9 +4,10 @@
     <div class="columns is-centered">
       <div class="column">
         <div style="margin-bottom: 1em;text-align: center;">
-          {{ range .Site.Taxonomies.tags }}
+          {{ range first 19 $.Site.Taxonomies.tags.ByCount }}
           <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
           {{ end }}
+          <a class="tag" href="/tags/">...</a>
         </div>
       </div>
     </div>

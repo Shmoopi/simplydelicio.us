@@ -2,7 +2,7 @@ baseURL = 'https://simplydelicio.us/'
 languageCode = 'en-us'
 title = 'SimplyDelicio.us'
 theme = "recipes"
-paginate = 12
+paginate = 16
 
 [params]
   logo = "/logo.png"
