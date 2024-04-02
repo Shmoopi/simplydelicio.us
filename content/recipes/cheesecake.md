@@ -1,19 +1,19 @@
 ---
-title: "Classic Cheesecake with Graham Cracker Crust"
-summary: "A delicious classic cheesecake with a buttery graham cracker crust"
+title: "Classic Cheesecake"
+summary: "A delicious creamy cheesecake with a buttery graham cracker crust"
 date: 2024-03-31
 draft: false
 time: "2h"
-output: "1 cheesecake"
-tags: ["cheesecake", "dessert", "graham cracker crust", "cream cheese"]
-featured_image: "/classic-cheesecake.png"
+output: "1 cake"
+tags: ["cheesecake", "dessert", "baking", "cream cheese"]
+featured_image: "/cheesecake.png"
 ---
 
 ## Ingredients
 
 ### Graham Cracker Crust
 
-- [ ] 1½ Cups - Graham Cracker Crumbs (about 12 full sheet graham crackers)
+- [ ] 1½ Cups - Graham Cracker Crumbs (about 12 graham crackers)
 - [ ] ¼ Cup - Granulated Sugar
 - [ ] 6 Tbsps - Unsalted Butter, melted
 

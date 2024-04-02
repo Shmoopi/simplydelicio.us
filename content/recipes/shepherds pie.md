@@ -4,7 +4,7 @@ summary: "A classic Shepherd's Pie with a flavorful meat filling and creamy mash
 date: 2023-12-23
 draft: false
 time: "1h"
-output: "1 Casserole"
+output: "1 casserole"
 tags: ["shepherd's pie", "ground beef", "potatoes", "comfort food", "baking"]
 featured_image: "/shepherds-pie.png"
 ---
