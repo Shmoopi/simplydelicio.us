@@ -21,7 +21,7 @@ featured_image: "/butter-chicken.png"
 - [ ] 1 Tsp - Ground Cumin
 - [ ] 1 Tbsp - Freshly Grated Ginger
 - [ ] 2 Cloves - Garlic, crushed
-- [ ] 1½ Pounds - Chicken Thigh Fillets, cut into bite-size pieces
+- [ ] 1½ Lbs - Chicken Thigh Fillets, cut into bite-size pieces
 
 ### Curry
 

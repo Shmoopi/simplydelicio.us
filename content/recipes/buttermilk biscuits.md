@@ -28,7 +28,7 @@ featured_image: "/buttermilk-biscuits.png"
 3. Slice the cold butter into small pieces and add them to the bowl of dry ingredients.
 4. Use a pastry cutter, pastry blender, or knife to cut the cold butter into small pea-sized pieces, incorporating it into the dry mixture.
 5. Gently stir in the milk and buttermilk until a dough forms. The dough will be sticky.
-6. Flour your cutting surface generously to prevent sticking. Roll out the dough and fold it three times to create layers. Roll it again until it's about 1/2-inch thick. Do not make the dough thicker than two inches to ensure the biscuits rise properly in the oven.
+6. Flour your cutting surface generously to prevent sticking. Roll out the dough and fold it three times to create layers. Roll it again until it's about ½-inch thick. Do not make the dough thicker than two inches to ensure the biscuits rise properly in the oven.
 7. Sprinkle a bit of flour on top of the dough to minimize stickiness while cutting the biscuits.
 8. Use a 2.5-inch or 3-inch biscuit cutter or a round glass of similar size to cut out biscuits. Avoid twisting the cutter; gently shake it to release the biscuit dough.
 9. Arrange the cut biscuits closely together on the greased cookie sheet or baking pan, allowing them little room to widen. This will result in thick and fluffy biscuits.

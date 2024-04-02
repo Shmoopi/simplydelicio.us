@@ -11,7 +11,7 @@ featured_image: "/chicken-dijon-tidbits.png"
 
 ## Ingredients
 
-- [ ] 1 Pound - Chicken breast, skinned, boned, and cut into ¾-inch cubes
+- [ ] 1 Lb - Chicken breast, skinned, boned, and cut into ¾-inch cubes
 - [ ] ¼ Cup - Butter or margarine
 - [ ] 1 Tsp - Dijon mustard
 - [ ] 1 - Garlic clove, crushed

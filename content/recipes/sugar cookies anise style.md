@@ -51,7 +51,7 @@ featured_image: "/sugar-cookie-anise.png"
 
 ### Icing
 
-1. Stir together the sugar, 3 tablespoons milk, corn syrup, and vanilla in a medium-sized bowl until combined.
+1. Stir together the sugar, 3 Tbsps milk, corn syrup, and vanilla in a medium-sized bowl until combined.
 2. If the icing is too thick, add the remaining milk, until the icing is thick but spreadable. If it's too thin, add a little more powdered sugar until the desired texture is reached. If you drizzle a little of the icing, it will hold for a few seconds before dripping. That is when you know it’s the right consistency and is ready to use.
 3. If coloring the icing with different colors, divide into bowls and color as desired at this point.
 4. Pipe or spread icing onto cookies and decorate, as desired.

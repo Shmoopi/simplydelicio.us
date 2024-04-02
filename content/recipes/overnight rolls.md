@@ -22,7 +22,7 @@ featured_image: "/overnight-rolls.png"
 
 ## Directions
 
-1. In a small bowl, dissolve the yeast in ¼ cup of warm water with 1 teaspoon of sugar. Let it stand for 10 minutes or until it becomes bubbly.
+1. In a small bowl, dissolve the yeast in ¼ Cup of warm water with 1 Tsp of sugar. Let it stand for 10 minutes or until it becomes bubbly.
 2. In a large mixing bowl, combine the salt, sugar, and flour.
 3. Next, add the beaten egg, oil, and water.
 4. Add the yeast mixture to the bowl and mix well.

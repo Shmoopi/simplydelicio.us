@@ -25,7 +25,7 @@ featured_image: "/gingerbread-cookies.png"
 
 ### Royal Icing
 
-- [ ] 2 cups - Powdered Sugar
+- [ ] 2 Cups - Powdered Sugar
 - [ ] 1½ Tbsps - Meringue Powder
 - [ ] 4-6 Tbsps - Water
 
@@ -34,7 +34,7 @@ featured_image: "/gingerbread-cookies.png"
 ### Make the Cookie Dough
 
 1. Beat butter in a large mixing bowl with an electric mixer on high speed until creamed. Add the brown sugar and mix until well creamed together, about 1 minute. Add the molasses and mix until combined. Add the dry ingredients, and mix until a dough forms. Add 1-2 tsp of milk if your dough is a bit crumbly.
-2. Roll and Chill: Divide the dough into two halves, and roll each one out to 3/8" thickness between sheets of parchment paper. (Use a ruler to check this, or just eyeball halfway between 1/4 and 1/2 inch. This is the perfect thickness for these cookies – trust! Even 1/2" is perfect – but don't go lower than 3/8")
+2. Roll and Chill: Divide the dough into two halves, and roll each one out to ⅜" thickness between sheets of parchment paper. (Use a ruler to check this, or just eyeball halfway between ¼ and ½ inch. This is the perfect thickness for these cookies – trust! Even ½" is perfect – but don't go lower than ⅜")
 3. Place the rolled dough, still sandwiched in parchment paper, on a baking sheet and cover loosely with a clean kitchen towel. Chill for 1-2 hours in the fridge or shorter in the freezer, until completely chilled and firm.
 
 ### Cut Out Cookies
@@ -54,5 +54,5 @@ Decorate by dipping the cooled cookies in this glaze (swap the maple syrup for m
 
 ### Make Royal Icing
 
-1. Combine all ingredients in a large bowl, starting with 4 tablespoons of water, and mix on high speed with an electric mixer for about 1 and 1/2 minutes. When the icing is the right consistency, you should be able to drizzle some of it into the bowl, and watch it sit on the surface of the mixture for 5-10 seconds before melting back in. If it's too thick, add 1 tablespoon of water at a time. If it's too thin, beat it for another 30 seconds to a minute, or add a bit more powdered sugar, a little at a time, beating between each addition.
+1. Combine all ingredients in a large bowl, starting with 4 Tbsps of water, and mix on high speed with an electric mixer for about 1 and ½ minutes. When the icing is the right consistency, you should be able to drizzle some of it into the bowl, and watch it sit on the surface of the mixture for 5-10 seconds before melting back in. If it's too thick, add 1 Tbsp of water at a time. If it's too thin, beat it for another 30 seconds to a minute, or add a bit more powdered sugar, a little at a time, beating between each addition.
 2. Add the royal icing to a piping bag fitted with a Wilton #1 or #2 tip and pipe desired designs. You can even use gel food coloring to tint the royal icing.

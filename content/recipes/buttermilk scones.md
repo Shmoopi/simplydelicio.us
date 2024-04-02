@@ -38,9 +38,9 @@ featured_image: "/buttermilk-scones.png"
 4. Stir in the currants and grated orange peel.
 5. Make a well in the center of the butter-flour mixture and add the buttermilk all at once. Stir the mixture with a fork until the dough cleans the sides of the bowl.
 6. With your hands, gather the dough into a ball and turn it out onto a lightly floured board.
-7. Roll or pat the dough into a 1/2-inch-thick circle.
+7. Roll or pat the dough into a ½-inch-thick circle.
 8. Using a 2 to 3-inch round cutter, cut the dough into individual scones.
-9. Place the scones 1 1/2 inches apart on the lightly greased baking sheets.
+9. Place the scones 1½ inches apart on the lightly greased baking sheets.
 10. In a small bowl, whisk together the milk, confectioner's sugar, and vanilla extract to make a glaze. Adjust the consistency with warm water if needed.
 11. Brush the tops of the scones with the glaze.
 12. Bake in the preheated oven for about 12 minutes or until the tops are light brown.

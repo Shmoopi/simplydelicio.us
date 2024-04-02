@@ -27,7 +27,7 @@ featured_image: "/apple-streusel-cheesecake-bars.png"
 1. Heat oven to 350°F (180°C).
 2. Grease bottom and sides of 13x9-inch pan.
 3. Place cookie mix in bowl; cut in butter until mixture is crumbly and coarse.
-4. Reserve 1½ cups crumb mixture; press remaining crumbs in bottom of pan.
+4. Reserve 1½ Cups crumb mixture; press remaining crumbs in bottom of pan.
 5. Bake 10 minutes.
 6. Meanwhile, in a bowl, beat cream cheese, sugar, flour, vanilla and egg until smooth.
 7. Spread cream cheese mixture evenly over partially baked crust. Mix pie filling and cinnamon. Spoon evenly over cream cheese mixture. Sprinkle reserved crumbs over top. Sprinkle with walnuts.

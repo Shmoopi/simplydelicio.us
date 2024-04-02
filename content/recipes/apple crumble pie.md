@@ -42,7 +42,7 @@ featured_image: "/crumble-apple-pie.png"
 ### Pie Crust
 
 1. In a mixing bowl, stir together flour and salt. Cut in shortening or lard until pieces are the size of small peas.
-2. Sprinkle 1 tablespoon of the water over part of the mixture, gently toss with a fork. Push to side of bowl. Repeat till all is moistened.
+2. Sprinkle 1 Tbsp of the water over part of the mixture, gently toss with a fork. Push to side of bowl. Repeat till all is moistened.
 3. Form dough into a ball.
 4. On a lightly floured surface, flatten dough with hands.
 5. Roll dough from center to edges, forming a circle about 12 inches in diameter.

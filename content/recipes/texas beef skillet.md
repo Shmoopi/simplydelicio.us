@@ -11,7 +11,7 @@ featured_image: "/texas-beef-skillet.png"
 
 ## Ingredients
 
-- [ ] 1 Pound - Ground Beef
+- [ ] 1 Lb - Ground Beef
 - [ ] ¾ Cup - Chopped Onions
 - [ ] 1 Can (16 Ounces) - Canned Tomatoes, cut up
 - [ ] 1 Can (15½ Ounces) - Red Kidney Beans

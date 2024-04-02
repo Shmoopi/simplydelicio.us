@@ -24,7 +24,7 @@ featured_image: "/red-chili.png"
 - [ ] 1½ Tsps - Salt
 - [ ] ½ Tsp - Ground Black Pepper
 - [ ] ¼ Tsp - Ground Cayenne Pepper (optional)
-- [ ] 1½ cups - Beef Broth
+- [ ] 1½ Cups - Beef Broth
 - [ ] 1 Can (15 oz.) - Petite Diced Tomatoes
 - [ ] 1 Can (16 oz.) - Red Kidney Beans, drained and rinsed
 - [ ] 1 Can (8 oz.) - Tomato Sauce

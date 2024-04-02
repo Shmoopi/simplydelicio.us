@@ -37,8 +37,8 @@ featured_image: "/giant-sugar-cookies.png"
 2. In a large mixing bowl, cream together the salted butter and granulated sugar until light and fluffy.
 3. Scrape down the sides of the bowl and add the eggs, vanilla extract, and almond extract. Beat until well mixed.
 4. Scrape down the sides again and add the all-purpose flour and baking powder. Mix until the dough is thoroughly combined.
-5. Scoop out about 1/4 cup of cookie dough and roll it into a ball. Repeat with the remaining dough.
-6. Flatten each cookie dough ball by gently pressing the bottom of a drinking glass or measuring cup onto the center of the dough. This will create a round, flattened shape.
+5. Scoop out about ¼ Cup of cookie dough and roll it into a ball. Repeat with the remaining dough.
+6. Flatten each cookie dough ball by gently pressing the bottom of a drinking glass or measuring Cup onto the center of the dough. This will create a round, flattened shape.
 7. Place the flattened dough onto baking sheets, leaving enough space between them as they will spread during baking. A maximum of 6 cookies per pan is recommended.
 8. Bake the cookies in the preheated oven for 9-11 minutes, or until the centers have puffed up and are no longer glossy.
 9. Once baked, allow the cookies to cool on the baking sheets.

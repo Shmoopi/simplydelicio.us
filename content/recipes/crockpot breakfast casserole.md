@@ -12,18 +12,18 @@ featured_image: "/crockpot-breakfast-casserole.png"
 ## Ingredients
 
 - [ ] 30 Ounces - Frozen Shredded Hash Browns (e.g., Ore-Ida)
-- [ ] 1 Pound - Breakfast Sausage, browned and drained (e.g., Jimmy Dean)
+- [ ] 1 Lb - Breakfast Sausage, browned and drained (e.g., Jimmy Dean)
 - [ ] 8 Ounces - Shredded Cheddar Cheese
 - [ ] 8 Ounces - Shredded Mozzarella Cheese
 - [ ] 3 - Green Onions, sliced
-- [ ] 12 Large Eggs
+- [ ] 12 - Large Eggs
 - [ ] ½ Cup - Milk (any kind)
 - [ ] ½ Tsp - Salt
 - [ ] ¼ Tsp - Pepper
 
 ## Directions
 
-1. Spray a 6-quart crock pot with nonstick spray.
+1. Spray a 6-Qt crock pot with nonstick spray.
 2. Arrange half of the frozen shredded hash browns on the bottom of the crock pot.
 3. Layer half of the cooked sausage, half of the shredded cheddar cheese, and half of the shredded mozzarella cheese over the hash browns.
 4. Sprinkle half of the sliced green onions on top of the cheese layer.

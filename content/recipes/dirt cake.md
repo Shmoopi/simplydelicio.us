@@ -11,14 +11,14 @@ featured_image: "/dirt-cake.png"
 
 ## Ingredients
 
-- [ ] 8 Ounces - Cream Cheese
+- [ ] 8 Ozs - Cream Cheese
 - [ ] 1 Stick (8 Tbsp) - Margarine
 - [ ] 1 Package - Instant Vanilla Pudding
 - [ ] 3 Cups - Milk
 - [ ] 1 Cup - Sugar, Confectionary
 - [ ] 1 Tsp - Vanilla Extract
-- [ ] 12 Ounces - Cool Whip®
-- [ ] 20 Ounces - Oreo Cookies
+- [ ] 12 Ozs - Cool Whip®
+- [ ] 20 Ozs - Oreo Cookies
 - [ ] Gummy worms and flowers (for garnish)
 
 ## Directions
