@@ -19,7 +19,7 @@ featured_image: "/cheesecake.png"
 
 ### Cream Cheese Filling
 
-- [ ] 4 (8oz each) - Packages of full-fat Cream Cheese
+- [ ] 4 (8 Ounces each - 32 Ounces Total) - Packages of full-fat Cream Cheese
 - [ ] 1⅔ Cups - Sugar
 - [ ] ¼ Cup - Cornstarch
 - [ ] 1 Tbsp - Pure Vanilla Extract
