@@ -4,9 +4,99 @@
     list-style-type: none;
     margin-left: 0.5em;
   }
+
   input[type='checkbox'] {
-    width: 15px;
-    height: 15px;
+    --active: #275dfe;
+    --active-inner: #fff;
+    --focus: 2px rgba(39, 94, 254, .3);
+    --border: #BBC1E1;
+    --border-hover: #275EFE;
+    --background: #fff;
+    --disabled: #F6F8FF;
+    --disabled-inner: #E1E6F9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 21px;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid var(--bc, var(--border));
+    background: var(--b, var(--background));
+    transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;
+  }
+
+  input[type=checkbox]:after {
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+  }
+
+  input[type=checkbox]:checked {
+    --b: var(--active);
+    --bc: var(--active);
+    --d-o: .3s;
+    --d-t: .6s;
+    --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+  }
+
+  input[type=checkbox]:hover:not(:checked):not(:disabled) {
+    --bc: var(--border-hover);
+  }
+
+  input[type=checkbox]:hover:not(:checked):not(:disabled) {
+    --bc: var(--border-hover);
+  }
+
+  input[type=checkbox]:focus {
+    box-shadow: 0 0 0 var(--focus);
+  }
+
+  input[type=checkbox]:not(.switch) {
+    width: 21px;
+  }
+
+  input[type=checkbox]:not(.switch):after {
+    opacity: var(--o, 0);
+  }
+
+  input[type=checkbox]:not(.switch):checked {
+    --o: 1;
+  }
+
+  input[type=checkbox]+label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+
+  input[type=checkbox]:not(.switch) {
+    border-radius: 7px;
+  }
+
+  input[type=checkbox]:not(.switch):after {
+    width: 5px;
+    height: 9px;
+    border: 2px solid var(--active-inner);
+    border-top: 0;
+    border-left: 0;
+    left: 7px;
+    top: 4px;
+    transform: rotate(var(--r, 20deg));
+  }
+
+  input[type=checkbox]:not(.switch):checked {
+    --r: 43deg;
+  }
+
+  input[type='checkbox']:checked+label {
+    text-decoration: line-through;
   }
 </style>
 <div class="section">
@@ -32,8 +122,12 @@
         </div>
       </div>
       <div style="margin-top: 1em;">
-        <span class="tag is-primary is-light">{{ .Params.Time }}</span>
-        <span class="tag is-info is-light">{{ .Params.Output }}</span>
+        {{ with .Params.Time }}
+        <span class="tag is-primary is-light">{{ . }}</span>
+        {{ end }}
+        {{ with .Params.Output}}
+        <span class="tag is-info is-light">{{ . }}</span>
+        {{ end }}
         {{ range .Params.Tags }}
         <a class="tag" href="/tags/{{ . }}">{{ . }}</a>
         {{ end }}
@@ -41,7 +135,7 @@
     </header>
     <div class="content" style="margin-top: 1em;">
       <!-- {{ .Content }} -->
-      {{ replace .Content "disabled" "enabled" | safeHTML }}
+      {{ replace .Content "disabled" "enabled" | replaceRE "(<li><input[^>]*?type=\"checkbox\"[^>]*?>)(.*?)(</li>)" "$1<label>$2</label>$3" | safeHTML }}
     </div>
   </article>
 </div>
