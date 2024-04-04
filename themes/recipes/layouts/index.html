@@ -4,7 +4,7 @@
     <div class="columns is-centered">
       <div class="column">
         <div style="margin-bottom: 1em;text-align: center;">
-          {{ range first 19 $.Site.Taxonomies.tags.ByCount }}
+          {{ range first 15 $.Site.Taxonomies.tags.ByCount }}
           <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
           {{ end }}
           <a class="tag" href="/tags/">...</a>
