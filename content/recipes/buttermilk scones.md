@@ -1,6 +1,6 @@
 ---
 title: "Buttermilk Scones"
-summary: "Delicious and tender scones made with buttermilk and currants"
+summary: "Soft and delicious breakfast scones made with buttermilk and currants"
 date: 2023-07-08
 draft: false
 time: "30m"

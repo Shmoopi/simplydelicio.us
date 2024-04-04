@@ -1,6 +1,6 @@
 ---
 title: "Gingerbread Cookies"
-summary: "Delicious, extremely soft gingerbread cookies with royal icing"
+summary: "Extremely soft and gingery gingerbread cookies with royal icing"
 date: 2023-12-23
 draft: false
 time: "2h 30m"

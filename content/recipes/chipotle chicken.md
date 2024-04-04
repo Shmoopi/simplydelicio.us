@@ -1,11 +1,11 @@
 ---
 title: "Chipotle Chicken"
-summary: "Delicious and flavorful spicy chicken made with a smoky marinade"
+summary: "Incredibly flavorful chicken made with a smoky marinade"
 date: 2023-08-23
 draft: false
 time: "1h 15m"
 output: "8-10 servings"
-tags: ["chicken", "chipotle", "dinner"]
+tags: ["chicken", "chipotle", "dinner", "grill"]
 featured_image: "/chipotle-chicken.png"
 ---
 

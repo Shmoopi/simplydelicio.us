@@ -1,6 +1,6 @@
 ---
 title: "Apple Crumb Pie"
-summary: "A delicious apple pie with a crumble topping"
+summary: "Tart and crisp apple pie with a sweet crumble topping and buttery crust"
 date: 2023-07-08
 draft: false
 time: "1h 30m"

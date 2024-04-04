@@ -1,6 +1,6 @@
 ---
 title: "Crock Pot Breakfast Casserole"
-summary: "A hearty and cheesy breakfast casserole cooked in a slow cooker."
+summary: "A hearty and cheesy breakfast casserole perfect for the slow cooker"
 date: 2023-08-23
 draft: false
 time: "4-8hr"

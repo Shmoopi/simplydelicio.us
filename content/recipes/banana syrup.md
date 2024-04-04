@@ -1,11 +1,11 @@
 ---
 title: "Banana Syrup"
-summary: "A sweet and flavorful banana syrup recipe"
+summary: "A sweet and flavorful banana syrup recipe perfect for pancakes"
 date: 2023-07-08
 draft: false
 time: "10m"
 output: "3 cups"
-tags: ["banana", "syrup", "fruit", "breakfast"]
+tags: ["banana", "syrup", "fruit", "breakfast", "pancakes"]
 featured_image: "/banana-syrup.png"
 ---
 

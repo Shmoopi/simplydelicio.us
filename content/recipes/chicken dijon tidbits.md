@@ -1,6 +1,6 @@
 ---
 title: "Chicken Dijon Tidbits"
-summary: "Delicious breaded chicken bites made with dijon mustard"
+summary: "Tasty breaded chicken bites made with dijon mustard"
 date: 2023-10-17
 draft: false
 time: "30m"

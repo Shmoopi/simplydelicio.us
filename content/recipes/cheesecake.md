@@ -1,6 +1,6 @@
 ---
 title: "Classic Cheesecake"
-summary: "A delicious creamy cheesecake with a buttery graham cracker crust"
+summary: "A delicious creamy no-frills cheesecake with a buttery graham cracker crust"
 date: 2024-03-31
 draft: false
 time: "2h"

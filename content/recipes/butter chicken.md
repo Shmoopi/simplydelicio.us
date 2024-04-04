@@ -1,6 +1,6 @@
 ---
 title: "Butter Chicken"
-summary: "Delicious and creamy Indian butter chicken with flavorful marinade and rich tomato cream sauce."
+summary: "Creamy Indian butter chicken with flavorful marinade and rich tomato cream sauce"
 date: 2023-08-23
 draft: false
 time: "30m"

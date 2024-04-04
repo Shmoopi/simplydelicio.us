@@ -14,13 +14,13 @@ featured_image: "/pretzel-salad.png"
 - [ ] 2 Cups - Pretzels, crushed
 - [ ] 3 Tbsps - Sugar
 - [ ] ¾ Cup - Margarine, melted
-- [ ] 8 Ozs (1 Package) - Cream Cheese
+- [ ] 8 Ounces (1 Package) - Cream Cheese
 - [ ] 1 Cup - Sugar
 - [ ] 4 Tbsps - Crushed Pineapple, drained
-- [ ] 8 Ozs - Cool Whip®
+- [ ] 8 Ounces - Cool Whip®
 - [ ] 1 Large Package - Raspberry Gelatin Powder
 - [ ] 2 Cups - Boiling Water
-- [ ] 10 Ozs - Frozen Raspberries
+- [ ] 10 Ounces - Frozen Raspberries
 
 ## Directions
 

@@ -1,6 +1,6 @@
 ---
 title: "Giant Sugar Cookies"
-summary: "Delicious, HUGE sugar cookies topped with a creamy, sweet almond icing."
+summary: "ENORMOUS sugar cookies topped with a creamy, sweet almond icing"
 date: 2023-08-23
 draft: false
 time: "1h 30m"

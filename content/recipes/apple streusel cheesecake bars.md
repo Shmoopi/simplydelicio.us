@@ -1,6 +1,6 @@
 ---
 title: "Apple Streusel Cheesecake Bars"
-summary: "Delicious and sweet apple streusel cheesecake bar recipe"
+summary: "Sweet and sugary apple streusel cheesecake bar recipe"
 date: 2023-07-08
 draft: false
 time: "3h 40m"

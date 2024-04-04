@@ -1,6 +1,6 @@
 ---
 title: "Dirt Cake"
-summary: "A fun and delicious dessert resembling dirt"
+summary: "A fun and delicious Halloween-inspired parfait dessert resembling dirt"
 date: 2023-07-08
 draft: false
 time: "30m"

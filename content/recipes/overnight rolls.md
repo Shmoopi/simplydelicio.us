@@ -1,6 +1,6 @@
 ---
 title: "Overnight Rolls"
-summary: "Soft and delicious rolls that rise overnight"
+summary: "Pillowy soft yeast rolls that rise overnight"
 date: 2023-07-08
 draft: false
 time: "2h 45m"

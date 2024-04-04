@@ -1,6 +1,6 @@
 ---
 title: "Classic Carrot Cake Cupcakes with a Cream Cheese Frosting"
-summary: "A delicious and moist carrot cake cupcake topped with a rich cream cheese frosting."
+summary: "A delicious and moist carrot cake cupcake topped with a rich cream cheese frosting"
 date: 2023-11-22
 draft: false
 time: "1h 15m"

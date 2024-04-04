@@ -1,6 +1,6 @@
 ---
 title: "Red Chili"
-summary: "A delicious and hearty beef chili that's perfect for cozy nights."
+summary: "A hearty beef chili that's perfect for cozy nights"
 date: 2023-11-26
 draft: false
 time: "40m"

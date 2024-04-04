@@ -1,6 +1,6 @@
 ---
 title: "Sicilian Chicken Soup"
-summary: "A hearty chicken and vegetable soup"
+summary: "A delicious and flavorful chicken and vegetable soup"
 date: 2023-08-23
 draft: false
 time: "2h 30m"
