@@ -3,7 +3,7 @@ title: "Cinnamon Roll Cheesecake"
 summary: "A delicious thick and creamy cheesecake with a ribbon of cinnamon running through it, topped off with cream cheese icing"
 date: 2024-04-03
 draft: false
-time: "1h 20m"
+time: "2h 30m"
 output: "1 cake"
 tags: ["cheesecake", "cinnamon", "dessert", "baking", "cream cheese frosting"]
 featured_image: "/cinnamon-roll-cheesecake.png"
