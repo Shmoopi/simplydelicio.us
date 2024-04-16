@@ -37,7 +37,7 @@
     </header>
     <div class="content" style="margin-top: 1em;">
       <!-- {{ .Content }} -->
-      {{ replace .Content "disabled" "enabled" | replaceRE "(<li><input[^>]*?type=\"checkbox\"[^>]*?>)(.*?)(</li>)" "$1<label>$2</label>$3" | safeHTML }}
+      {{ replace .Content "disabled" "enabled" | replaceRE "(<li>)(<input[^>]*?type=\"checkbox\"[^>]*?>)(.*?)(</li>)" "$1<label>$2$3</label>$4" | safeHTML }}
     </div>
   </article>
 </div>
