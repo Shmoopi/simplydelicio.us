@@ -1,5 +1,5 @@
 ---
-title: "Pumpkin Roll Recipe"
+title: "Pumpkin Roll"
 summary: "A fall-favorite spiced pumpkin cake roll with a creamy cream cheese filling"
 date: 2024-04-16
 draft: false
