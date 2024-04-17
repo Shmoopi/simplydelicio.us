@@ -5,7 +5,7 @@ date: 2024-04-03
 draft: false
 time: "2h 30m"
 output: "1 cake"
-tags: ["cheesecake", "cinnamon", "dessert", "baking", "cream cheese frosting"]
+tags: ["cheesecake", "cinnamon", "dessert", "baking", "cream cheese"]
 featured_image: "/cinnamon-roll-cheesecake.png"
 ---
 

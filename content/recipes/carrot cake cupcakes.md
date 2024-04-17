@@ -5,7 +5,7 @@ date: 2023-11-22
 draft: false
 time: "1h 15m"
 output: "3 dozen"
-tags: ["cupcake", "carrot cake", "pineapple", "cream cheese frosting", "baking", "dessert"]
+tags: ["cupcake", "carrot cake", "pineapple", "cream cheese", "baking", "dessert"]
 featured_image: "/carrot-cake-cupcakes.png"
 ---
 
