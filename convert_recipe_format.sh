@@ -54,7 +54,7 @@ replace_with_abbreviations() {
     abbreviations_mapping_tbsps="Tbsps"
     abbreviations_mapping_cup="Cup "
     abbreviations_mapping_cups="Cups"
-    abbreviations_mapping_ounce="oz"
+    abbreviations_mapping_ounce="Ounce"
     abbreviations_mapping_ounces="Ounces"
     abbreviations_mapping_pound="Lb"
     abbreviations_mapping_pounds="Lbs"
