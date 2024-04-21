@@ -11,7 +11,7 @@ Get cooking in no time with SimplyDelicio.us:
 1. Download or clone the project
 2. Open a new Terminal/Console window
 3. Change directory to the project folder: `cd /path/to/simplydelicio.us/`
-4. Install Hugo with [Hugo quick start guide](https://gohugo.io/getting-started/quick-start/)
+4. Install Hugo with the [Hugo quick start guide](https://gohugo.io/getting-started/quick-start/)
 5. Start the Hugo server: `hugo server -D`
 6. Open a browser window to view the [Web Server](http://localhost:1313/)
 
@@ -29,7 +29,7 @@ Before making a contribution, please ensure that:
 
 ### Recipe Template
 
-Use the following template when adding a new recipe:
+Use the following [template](recipe_template.md) when adding a new recipe:
 
 ```markdown
 ---

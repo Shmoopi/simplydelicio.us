@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - 'LICENSE'
       - 'README.md'
+      - 'recipe_template.md'
       - 'convert_images.sh'
       - 'convert_recipe_format.sh'
     branches:
