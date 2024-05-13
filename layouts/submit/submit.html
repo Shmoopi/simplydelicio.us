@@ -1,0 +1,89 @@
+{{ define "main" }}
+.
+<script type="text/javascript">var submitted = false;</script>
+<style>
+    .title {
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .form input[type="text"],
+    .form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-family: inherit;
+        font-size: 16px; /* Set the font size to 16px for consistency */
+    }
+    .form input[type="submit"] {
+        background-color: #007bff; /* Blue color for the send button */
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .form input[type="submit"]:hover {
+        background-color: #0056b3; /* Darker shade of blue on hover */
+    }
+</style>
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-half">
+                <h3 class="title" id="title">Submit a Recipe</h3>
+            </div>
+        </div>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+            onload="if(submitted)  {window.location='/submit/thank-you';}"></iframe>
+        <form class="form"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSfszSIlMZFgdP84rCfBQJDHprADkR7Ru5hpuPH3HYU3YLzxgg/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+
+            <div class="field">
+                <label for="name">Recipe Name</label><span style="color: red;">*</span>
+                <div class="control">
+                    <input placeholder="Recipe Name" name="entry.839491579" type="text" id="name" required />
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="ingredients">Recipe Ingredients</label><span style="color: red;">*</span>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Please list all ingredients here" name="entry.342596028" id="ingredients" required></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="details">Recipe Details</label><span style="color: red;">*</span>
+                <textarea class="textarea" placeholder="Please list all details here" name="entry.1909528748" id="details" required></textarea>
+            </div>
+
+            <div class="field">
+                <label for="notes">Recipe Notes</label>
+                <textarea class="textarea" placeholder="Please list any additional notes about the recipe here" name="entry.224764909" id="notes"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="upload">Image URL</label>
+                <input placeholder="i.e. https://www.example.com/image.png" name="entry.484758853" type="text" id="image" />
+            </div>
+
+            <div class="control">
+                <button class="button is-link">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+{{ end }}
