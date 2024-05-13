@@ -1,0 +1,49 @@
+name: Recipe Contribution
+description: Contribute a new recipe.
+title: "[Recipe]: "
+labels: ["recipe", "contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a new recipe!
+  - type: input
+    id: recipe-name
+    attributes:
+      label: Recipe Name
+      description: Enter the name of your recipe.
+      placeholder: ex. Spaghetti Carbonara
+    validations:
+      required: true
+  - type: textarea
+    id: ingredients
+    attributes:
+      label: Ingredients
+      description: List all the ingredients required for the recipe.
+      placeholder: Enter ingredients...
+    validations:
+      required: true
+  - type: textarea
+    id: recipe-details
+    attributes:
+      label: Recipe Details
+      description: Provide detailed instructions for the recipe here.
+      placeholder: Enter recipe details...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Add any additional notes or tips for preparing the recipe.
+      placeholder: Enter additional notes...
+    validations:
+      required: false
+  - type: input
+    id: image-upload
+    attributes:
+      label: Image Upload
+      description: Attach an image of the finished dish here, if available.
+      placeholder: ex. https://example.com/image.png
+    validations:
+      required: false
