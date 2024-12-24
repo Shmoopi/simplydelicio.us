@@ -1,6 +1,6 @@
 ---
 title: "Tangy Lime Creams"
-summary: "Buttery cookies with a tangy lime filling"
+summary: "Buttery cookies with a tangy lime filling that is perfectly buttery, sweet, and tangy"
 date: 2024-12-24
 draft: false
 time: "1h"
