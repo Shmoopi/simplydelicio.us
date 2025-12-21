@@ -17,7 +17,6 @@ featured_image: "/sugar-cookie-anise.png"
 - [ ] 6 Cups - All-Purpose Flour
 - [ ] 2¼ Cups - Sugar
 - [ ] 4½ Tsps - Baking Powder
-- [ ] 3 Tbsps - Milk
 - [ ] 3 - Large Eggs
 - [ ] 1 Tsp - Vanilla Extract
 - [ ] 1 Tsp - Anise Oil
