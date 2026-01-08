@@ -1,0 +1,540 @@
+/* ============================================
+   SimplyDelicio.us Modern Theme Styles
+   ============================================ */
+
+/* CSS Variables for consistent theming */
+:root {
+  --primary-color: #e85d04;
+  --primary-dark: #d45a04;
+  --primary-light: #ff7b2e;
+  --secondary-color: #2d3436;
+  --accent-color: #00b894;
+  --text-color: #2d3436;
+  --text-light: #636e72;
+  --background-start: #ffecd2;
+  --background-end: #fcb69f;
+  --card-background: #ffffff;
+  --navbar-background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --shadow-heavy: 0 20px 40px rgba(0, 0, 0, 0.15);
+  --border-radius: 16px;
+  --border-radius-small: 8px;
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --font-title: 'Playfair Display', Georgia, serif;
+}
+
+/* ============================================
+   Title Font Styling
+   ============================================ */
+
+.title,
+.card-title,
+.navbar-brand .navbar-item,
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+}
+
+/* ============================================
+   Background Styling
+   ============================================ */
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--background-start) 0%, var(--background-end) 50%, #ffeaa7 100%);
+  position: relative;
+}
+
+/* ============================================
+   Navigation Bar Styling
+   ============================================ */
+
+.navbar.is-dark {
+  background: var(--navbar-background);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 0.25rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: auto;
+}
+
+/* Add spacing below navbar for content separation */
+body {
+  padding-top: 1.0rem;
+}
+
+.navbar-brand .navbar-item {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  transition: var(--transition-medium);
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--border-radius-small);
+}
+
+.navbar-brand .navbar-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--primary-light);
+}
+
+.navbar-brand .image {
+  margin-right: 0.5rem;
+  margin-top: 15px;
+  align-self: flex-start;
+}
+
+.navbar-brand .image img {
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: var(--transition-medium);
+}
+
+.navbar-brand .navbar-item:hover .image img {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(232, 93, 4, 0.4);
+}
+
+/* Search Bar Styling */
+#search {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+#search .field.has-addons {
+  margin-bottom: 0;
+}
+
+#search .input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  height: auto;
+  min-width: 200px;
+  transition: var(--transition-medium);
+}
+
+#search .input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#search .input:focus {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--primary-light);
+  box-shadow: 0 0 0 3px rgba(232, 93, 4, 0.2);
+  outline: none;
+}
+
+#search .button.is-info {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  border: none;
+  border-radius: 0 var(--border-radius-small) var(--border-radius-small) 0;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.6rem 1.25rem;
+  height: auto;
+  transition: var(--transition-medium);
+}
+
+#search .button.is-info:hover {
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(232, 93, 4, 0.4);
+}
+
+#search .button.is-info:active {
+  transform: translateY(0);
+}
+
+/* ============================================
+   Card (Box) Styling
+   ============================================ */
+
+.box {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-medium);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: var(--transition-medium);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+}
+
+/* Gradient accent on top of card */
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color), var(--primary-light));
+  opacity: 0;
+  transition: var(--transition-medium);
+}
+
+.box:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-heavy);
+  border-color: rgba(232, 93, 4, 0.2);
+}
+
+.box:hover::before {
+  opacity: 1;
+}
+
+/* Card Image Styling */
+.box .image {
+  margin: 0 auto 0.5rem auto;
+  position: relative;
+}
+
+.box .image img {
+  border-radius: 50%;
+  box-shadow: var(--shadow-light);
+  transition: var(--transition-medium);
+  object-fit: cover;
+}
+
+.box:hover .image img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(232, 93, 4, 0.25);
+}
+
+/* Card Content Container */
+.box .card-content {
+  text-align: center;
+}
+
+/* Card Title */
+.box .card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 1.3;
+  margin-top: 0.4rem;
+}
+
+/* Card Summary */
+.box .card-summary {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Card Tags Container */
+.box .card-tags {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* ============================================
+   Tag Styling
+   ============================================ */
+
+.tag {
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0.4em 0.9em;
+  transition: var(--transition-fast);
+  border: 1px solid transparent;
+}
+
+.tag:not(.is-primary):not(.is-info):not(.is-light) {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  color: var(--text-color);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+.tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tag.is-primary.is-light {
+  background: linear-gradient(135deg, #fff5f0 0%, #ffe8db 100%);
+  color: var(--primary-dark);
+  border: 1px solid rgba(232, 93, 4, 0.2);
+}
+
+.tag.is-info.is-light {
+  background: linear-gradient(135deg, #e8f8f5 0%, #d1f2eb 100%);
+  color: #00695c;
+  border: 1px solid rgba(0, 184, 148, 0.2);
+}
+
+/* Tags in index and list headers */
+.section > .container > .columns:first-child .tag {
+  margin: 0.25rem;
+}
+
+/* ============================================
+   Section and Container Styling
+   ============================================ */
+
+.section {
+  padding: 3rem 1.5rem;
+}
+
+.section:first-of-type {
+  padding-top: 2.5rem;
+}
+
+/* ============================================
+   Content Area Styling (Single Recipe Page)
+   ============================================ */
+
+.section > article.container {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-medium);
+  padding: 2.5rem;
+  margin-top: 1rem;
+}
+
+.section > article.container header {
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(232, 93, 4, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.section > article.container .title.is-1 {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+.section > article.container .subtitle.is-6 {
+  color: var(--text-light);
+}
+
+/* Recipe image on single page */
+.zoom-without-container .image img {
+  border-radius: var(--border-radius-small);
+  box-shadow: var(--shadow-light);
+}
+
+/* ============================================
+   Pagination Styling
+   ============================================ */
+
+.pagination {
+  margin: 2rem 0;
+}
+
+.pagination-link,
+.pagination-previous,
+.pagination-next {
+  border-radius: var(--border-radius-small);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--card-background);
+  transition: var(--transition-fast);
+}
+
+.pagination-link:hover,
+.pagination-previous:hover,
+.pagination-next:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.pagination-link.is-current {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  border-color: var(--primary-color);
+}
+
+/* ============================================
+   Footer and Submit Link Styling
+   ============================================ */
+
+.content.has-text-centered a {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: #ffffff;
+  border-radius: var(--border-radius-small);
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition-medium);
+  box-shadow: var(--shadow-light);
+}
+
+.content.has-text-centered a:hover {
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* ============================================
+   Responsive Adjustments
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  .navbar.is-dark {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-brand .navbar-item {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+
+  #search {
+    padding: 0.5rem;
+  }
+
+  #search .input {
+    min-width: 120px;
+    font-size: 0.85rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  #search .button.is-info {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .box {
+    padding: 1.25rem;
+    border-radius: 12px;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section > article.container {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #search .input {
+    min-width: 100px;
+  }
+
+  .navbar-brand .navbar-item {
+    font-size: 1rem;
+  }
+
+  .box > div > div:first-child {
+    font-size: 1rem;
+  }
+}
+
+/* ============================================
+   List Page Title Styling
+   ============================================ */
+
+.section .title {
+  color: var(--text-color);
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.section .columns.is-centered .column.is-half {
+  text-align: center;
+}
+
+.section .columns.is-centered .column.is-half .title {
+  padding-bottom: 0.5rem;
+}
+
+.section .columns.is-centered .column.is-half .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  border-radius: 2px;
+}
+
+/* ============================================
+   Lightbox (CSS-only image modal)
+   ============================================ */
+
+.lightbox-wrapper {
+  position: relative;
+}
+
+.lightbox-checkbox {
+  display: none;
+}
+
+.lightbox-trigger {
+  cursor: pointer;
+  display: block;
+}
+
+.lightbox-trigger:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(232, 93, 4, 0.3);
+}
+
+.lightbox-trigger img {
+  transition: var(--transition-medium);
+}
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: var(--border-radius);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-checkbox:checked ~ .lightbox-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-checkbox:checked ~ .lightbox-overlay .lightbox-content {
+  transform: scale(1);
+}

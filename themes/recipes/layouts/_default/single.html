@@ -6,12 +6,18 @@
     <header>
       <div class="is-flex">
         {{ with .Params.featured_image }}
-        <div class="zoom-without-container">
-          <figure class="image is-96x96" style="margin-right: 0.5em;">
-            <a href="/images/large{{ . }}">
-              <img alt="/images/medium{{ . }}" class="is-rounded" src="/images/medium{{ . }}" />
-            </a>
-          </figure>
+        <div class="lightbox-wrapper">
+          <input type="checkbox" id="lightbox-toggle" class="lightbox-checkbox" hidden />
+          <label for="lightbox-toggle" class="lightbox-trigger">
+            <figure class="image is-96x96" style="margin-right: 0.5em;">
+              <img alt="{{ $.Title }}" class="is-rounded" src="/images/medium{{ . }}" />
+            </figure>
+          </label>
+          <label for="lightbox-toggle" class="lightbox-overlay">
+            <div class="lightbox-content">
+              <img alt="{{ $.Title }}" src="/images/large{{ . }}" />
+            </div>
+          </label>
         </div>
         {{ end }}
         <div>

@@ -3,6 +3,14 @@
     margin-left: 0.5em;
 }
 
+/* Hide lightbox checkbox */
+input[type='checkbox'].lightbox-checkbox {
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    pointer-events: none !important;
+}
+
 input[type='checkbox'] {
     --active: #4b77a9;
     --active-inner: #fff;

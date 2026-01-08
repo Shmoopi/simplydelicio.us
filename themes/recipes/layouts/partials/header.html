@@ -1,45 +1,14 @@
-<style>
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* Style the search input and button */
-  .input {
-    max-width: 200px;
-    font-size: 14px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-  }
-
-  .input::placeholder {
-    color: #aaa;
-  }
-
-  .button.is-info {
-    background-color: #555;
-    color: #fff;
-    font-size: 14px;
-    padding: 8px 12px;
-    margin-right: 1.0em;
-  }
-</style>
-
-<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation"
-  style="display: flex; justify-content: space-between; align-items: center;">
+<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
       {{ with $.Site.Params.logo }}
-      <figure class="image is-32x32" style="margin-right: 0.5em; margin-top: 1.0em;">
-        <img alt="{{ . }}" class="is-rounded" src="{{ . }}" />
+      <figure class="image is-32x32">
+        <img alt="{{ $.Site.Title }} logo" class="is-rounded" src="{{ . }}" />
       </figure>
       {{ end }}
       {{ $.Site.Title }}
     </a>
   </div>
-  <!-- Add the search bar here -->
   <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
     <div class="field has-addons">
       <div class="control">

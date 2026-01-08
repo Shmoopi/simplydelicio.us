@@ -1,20 +1,18 @@
 <a class="box" href="{{ .Permalink }}" aria-label="{{ .Title }}">
-  <!-- <div class="is-flex"> -->
-    {{ with .Params.featured_image }}
-    <figure class="image is-64x64" style="display:block;margin-left:auto;margin-right:auto;">
-      <img alt="/images/small{{ . }}" class="is-rounded" src="/images/small{{ . }}" />
-    </figure>
+  {{ with .Params.featured_image }}
+  <figure class="image is-96x96">
+    <img alt="{{ $.Title }}" class="is-rounded" src="/images/small{{ . }}" />
+  </figure>
+  {{ end }}
+  <div class="card-content">
+    {{ with .Title }}
+    <div class="card-title">{{ . }}</div>
     {{ end }}
-    <div>
-      {{ with .Title }}
-      <div style="margin-top: 0.5em;text-align: center;">{{ . }}</div>
-      {{ end }}
-      {{ with .Summary }}
-      <small class="has-text-grey" style="margin-top: 0.5em;text-align: center;display: block;">{{ . }}</small>
-      {{ end }}
-    </div>
-  <!-- </div> -->
-  <div style="margin-top: 1.0em;text-align: center;">
+    {{ with .Summary }}
+    <small class="has-text-grey card-summary">{{ . }}</small>
+    {{ end }}
+  </div>
+  <div class="card-tags">
     {{ with .Params.Time }}
     <span class="tag is-primary is-light">{{ . }}</span>
     {{ end }}
