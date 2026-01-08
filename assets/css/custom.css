@@ -102,6 +102,66 @@ body {
   box-shadow: 0 4px 12px rgba(232, 93, 4, 0.4);
 }
 
+/* Logo Steam Animation */
+.logo-steam-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.steam-container {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.steam {
+  position: absolute;
+  bottom: 0;
+  width: 2px;
+  height: 12px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+  border-radius: 50%;
+  opacity: 0;
+  animation: steam-rise 2s ease-out infinite;
+}
+
+.steam-1 {
+  left: 8px;
+  animation-delay: 0s;
+}
+
+.steam-2 {
+  left: 15px;
+  animation-delay: 0.5s;
+}
+
+.steam-3 {
+  left: 22px;
+  animation-delay: 1s;
+}
+
+@keyframes steam-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleX(1);
+  }
+  15% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-10px) scaleX(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scaleX(0.8);
+  }
+}
+
 /* Search Bar Styling */
 #search {
   display: flex;

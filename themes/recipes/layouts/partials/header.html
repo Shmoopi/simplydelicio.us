@@ -2,9 +2,16 @@
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
       {{ with $.Site.Params.logo }}
-      <figure class="image is-32x32">
-        <img alt="{{ $.Site.Title }} logo" class="is-rounded" src="{{ . }}" />
-      </figure>
+      <div class="logo-steam-wrapper">
+        <figure class="image is-32x32">
+          <img alt="{{ $.Site.Title }} logo" class="is-rounded" src="{{ . }}" />
+        </figure>
+        <div class="steam-container">
+          <span class="steam steam-1"></span>
+          <span class="steam steam-2"></span>
+          <span class="steam steam-3"></span>
+        </div>
+      </div>
       {{ end }}
       {{ $.Site.Title }}
     </a>
