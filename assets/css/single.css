@@ -75,10 +75,31 @@ input[type=checkbox]:not(.switch):checked {
     --o: 1;
 }
 
-input[type=checkbox]+label {
-    vertical-align: middle;
+/* Label wrapping checkbox and text */
+.content li label {
     cursor: pointer;
+    display: inline;
+}
+
+/* Text span next to checkbox */
+.content li label span {
+    vertical-align: middle;
     margin-left: 4px;
+    position: relative;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Animated strikethrough line */
+.content li label span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #e85d04, #00b894);
+    transition: width 0.4s ease;
+    border-radius: 1px;
 }
 
 input[type=checkbox]:not(.switch) {
@@ -100,6 +121,13 @@ input[type=checkbox]:not(.switch):checked {
     --r: 43deg;
 }
 
-input[type='checkbox']:checked+label {
-    text-decoration: line-through;
+/* Checked state - fade text */
+.content li label input[type='checkbox']:checked + span {
+    color: #888;
+    opacity: 0.7;
+}
+
+/* Animate the strikethrough line across */
+.content li label input[type='checkbox']:checked + span::after {
+    width: 100%;
 }
