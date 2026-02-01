@@ -7,30 +7,44 @@ time: "2h 15m"
 output: "16 bars"
 tags: ["dessert", "lemon bars", "baking", "citrus"]
 featured_image: "/lemon-bars.png"
+ingredients:
+  - section: "Crust"
+    items:
+      - qty: 12
+        unit: "Tbsps"
+        name: "Unsalted Butter (about 1½ Sticks Each)"
+      - qty: 1
+        name: "Large lemon(s)"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Granulated Sugar"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Kosher Salt"
+      - qty: 1.75
+        unit: "Cups"
+        name: "All-Purpose Flour"
+  - section: "Filling"
+    items:
+      - qty: 4
+        name: "Large Eggs"
+      - qty: 5
+        name: "Large Lemons (one is for the crust)"
+      - qty: 1.5
+        unit: "Cups"
+        name: "Granulated Sugar"
+      - qty: 0.334
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Kosher Salt"
+      - qty: null
+        name: "Powdered Sugar (for dusting)"
 ---
-
-## Ingredients
-
-### Crust
-
-- [ ] 12 Tbsps (1½ Sticks) - Unsalted Butter
-- [ ] 1 - Large lemon
-- [ ] ¼ Cup - Granulated Sugar
-- [ ] ½ Tsp - Kosher Salt
-- [ ] 1¾ Cups - All-Purpose Flour
-
-### Filling
-
-- [ ] 4 - Large Eggs
-- [ ] 5 - Large Lemons (one is from the crust)
-- [ ] 1½ Cups - Granulated Sugar
-- [ ] ⅓ Cup - All-Purpose Flour
-- [ ] ½ Tsp - Kosher Salt
-- [ ] Powdered Sugar (for dusting)
-
 ## Instructions
 
-1. Place 12 Tbsps unsalted butter and 4 large eggs on the counter. Let both sit at room temperature until the butter is softened.
+1. Place unsalted butter and large eggs on the counter. Let both sit at room temperature until the butter is softened.
 
 ### Crust
 

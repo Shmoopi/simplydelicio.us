@@ -131,3 +131,101 @@ input[type=checkbox]:not(.switch):checked {
 .content li label input[type='checkbox']:checked + span::after {
     width: 100%;
 }
+
+/* ============================================
+   Recipe Scaling Styles
+   ============================================ */
+
+/* Hide scale radio inputs */
+.scale-radio {
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    pointer-events: none !important;
+}
+
+/* Scale buttons container */
+.scale-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Scale button styling - matches theme tag style */
+.scale-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1.1em;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-color, #2d3436);
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.scale-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: rgba(232, 93, 4, 0.3);
+}
+
+/* Active scale button state - uses theme primary gradient */
+#scale-1:checked ~ .scale-buttons label[for="scale-1"],
+#scale-2:checked ~ .scale-buttons label[for="scale-2"],
+#scale-3:checked ~ .scale-buttons label[for="scale-3"],
+#scale-4:checked ~ .scale-buttons label[for="scale-4"] {
+    background: linear-gradient(135deg, var(--primary-color, #e85d04) 0%, var(--primary-dark, #d45a04) 100%);
+    border-color: var(--primary-color, #e85d04);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(232, 93, 4, 0.35);
+}
+
+#scale-1:checked ~ .scale-buttons label[for="scale-1"]:hover,
+#scale-2:checked ~ .scale-buttons label[for="scale-2"]:hover,
+#scale-3:checked ~ .scale-buttons label[for="scale-3"]:hover,
+#scale-4:checked ~ .scale-buttons label[for="scale-4"]:hover {
+    background: linear-gradient(135deg, var(--primary-light, #ff7b2e) 0%, var(--primary-color, #e85d04) 100%);
+    box-shadow: 0 6px 16px rgba(232, 93, 4, 0.4);
+}
+
+/* Hide all ingredient sections by default */
+.ingredients-section {
+    display: none;
+}
+
+/* Show the selected scale's ingredients */
+#scale-1:checked ~ .ingredients-1x { display: block; }
+#scale-2:checked ~ .ingredients-2x { display: block; }
+#scale-3:checked ~ .ingredients-3x { display: block; }
+#scale-4:checked ~ .ingredients-4x { display: block; }
+
+/* Scale indicator in heading */
+.scale-indicator {
+    font-size: 0.8em;
+    color: #888;
+    font-weight: normal;
+}
+
+/* Ingredients section styling */
+.ingredients-section h2 {
+    margin-bottom: 0.75rem;
+}
+
+.ingredients-section h3 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.ingredients-section ul {
+    list-style-type: none;
+    margin-left: 0.5em;
+    margin-bottom: 1rem;
+}

@@ -7,22 +7,36 @@ time: "2h 45m"
 output: "36 rolls"
 tags: ["rolls", "baking", "bread"]
 featured_image: "/overnight-rolls.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "(2¼ Tsps) Package(s)"
+        name: "Active Dry Yeast"
+      - qty: 1
+        unit: "tsps"
+        name: "Sugar"
+      - qty: 2
+        unit: "Cups"
+        name: "Warm Water"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 1
+        name: "Egg, beaten"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Oil"
+      - qty: 7
+        unit: "Cups"
+        name: "All-Purpose Flour"
 ---
-
-## Ingredients
-
-- [ ] 1 Package - Active Dry Yeast
-- [ ] 1 Tsp - Sugar
-- [ ] 2 Cups - Warm Water
-- [ ] 1½ Tsps - Salt
-- [ ] ¾ Cup - Sugar
-- [ ] 1 Egg, beaten
-- [ ] ½ Cup - Oil
-- [ ] 7 Cups - All-Purpose Flour
-
 ## Directions
 
-1. In a small bowl, dissolve the yeast in ¼ Cup of warm water with 1 Tsp of sugar. Let it stand for 10 minutes or until it becomes bubbly.
+1. In a small bowl, dissolve the yeast in ¼ Cup of warm water with 1 Tsp of sugar (per packet of yeast). Let it stand for 10 minutes or until it becomes bubbly.
 2. In a large mixing bowl, combine the salt, sugar, and flour.
 3. Next, add the beaten egg, oil, and water.
 4. Add the yeast mixture to the bowl and mix well.

@@ -7,42 +7,76 @@ time: "2h 30m"
 output: "1 cake"
 tags: ["cheesecake", "cinnamon", "dessert", "baking", "cream cheese"]
 featured_image: "/cinnamon-roll-cheesecake.png"
+ingredients:
+  - section: "Crust"
+    items:
+      - qty: 1.5
+        unit: "Cups"
+        name: "Vanilla wafer crumbs (or graham cracker crumbs)"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 1
+        unit: "tsps"
+        name: "Ground cinnamon"
+      - qty: 5
+        unit: "Tbsps"
+        name: "Butter, melted"
+  - section: "Cheesecake Filling"
+    items:
+      - qty: 3
+        unit: "(8oz) Packages"
+        name: "Cream cheese, room temperature"
+      - qty: 1
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 3
+        unit: "Tbsps"
+        name: "All-purpose flour"
+      - qty: 1
+        unit: "Cups"
+        name: "Sour cream"
+      - qty: 2
+        unit: "tsps"
+        name: "Vanilla extract"
+      - qty: 2
+        unit: "tsps"
+        name: "Ground cinnamon"
+      - qty: 4
+        unit: "Large"
+        name: "eggs, room temperature"
+  - section: "Cinnamon Filling"
+    items:
+      - qty: 1.5
+        unit: "Cups"
+        name: "Packed light brown sugar"
+      - qty: 5
+        unit: "Tbsps"
+        name: "Ground cinnamon"
+      - qty: 0.75
+        unit: "Cups"
+        name: "All-purpose flour"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Unsalted butter, melted"
+  - section: "Cream Cheese Frosting"
+    items:
+      - qty: 2
+        unit: "Tbsps"
+        name: "Cream cheese, room temperature"
+      - qty: 6
+        unit: "Tbsps"
+        name: "Butter, room temperature"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Vanilla extract"
+      - qty: 1.5
+        unit: "Cups"
+        name: "Powdered sugar"
+      - qty: 5
+        unit: "Tbsps"
+        name: "Heavy cream"
 ---
-
-## Ingredients
-
-### Crust
-
-- [ ] 1½ Cups - Vanilla wafer crumbs (or graham cracker crumbs)
-- [ ] ¼ Cup - Sugar
-- [ ] 1 Tsp - Ground cinnamon
-- [ ] 5 Tbsps - Butter, melted
-
-### Cheesecake Filling
-
-- [ ] 24 Ounces - Cream cheese, room temperature
-- [ ] 1 Cup - Sugar
-- [ ] 3 Tbsps - All-purpose flour
-- [ ] 1 Cup - Sour cream
-- [ ] 2 Tsps - Vanilla extract
-- [ ] 2 Tsps - Ground cinnamon
-- [ ] 4 Large eggs, room temperature
-
-### Cinnamon Filling
-
-- [ ] 1½ Cups - Packed light brown sugar
-- [ ] 5 Tbsps - Ground cinnamon
-- [ ] ¾ Cup - All-purpose flour
-- [ ] ½ Cup - Unsalted butter, melted
-
-### Cream Cheese Frosting
-
-- [ ] 2 Tbsps - Cream cheese, room temperature
-- [ ] 6 Tbsps - Butter, room temperature
-- [ ] ½ Tsp - Vanilla extract
-- [ ] 1½ Cups - Powdered sugar
-- [ ] 4–5 Tbsps - Heavy cream
-
 ## Instructions
 
 ### Crust

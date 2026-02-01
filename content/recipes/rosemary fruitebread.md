@@ -7,21 +7,38 @@ time: "1hr"
 output: "1 loaf"
 tags: ["bread", "fruitbread", "rosemary", "baking"]
 featured_image: "/rosemary-fruitbread.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 4.5
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 1
+        unit: "(2¼ Tsps) Package(s)"
+        name: "Fast-Rising Yeast"
+      - qty: 5
+        unit: "Tbsps"
+        name: "Butter (Cut Into Small Pieces)"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Crushed Rosemary"
+      - qty: 1
+        unit: "Cups"
+        name: "Hot Water"
+      - qty: 1
+        name: "Egg"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Diced Dried Fruit Bits"
+      - qty: null
+        name: "Dash - Fresh Rosemary For Garnish"
 ---
-
-## Ingredients
-
-- [ ] 4½ Cups - All-Purpose Flour
-- [ ] ⅓ Cup - Sugar
-- [ ] ½ Tsp - Salt
-- [ ] 1 Package - Fast-Rising Yeast
-- [ ] 5 Tbsps - Butter (Cut Into Small Pieces)
-- [ ] ½ Tsp - Crushed Rosemary
-- [ ] 1⅓ Cups - Hot Water
-- [ ] 1 Egg
-- [ ] ½ Cup - Diced Dried Fruit Bits
-- [ ] Dash - Fresh Rosemary For Garnish
-
 ## Directions
 
 1. Grease front and back sections of the loaf pan.

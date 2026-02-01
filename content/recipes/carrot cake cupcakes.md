@@ -7,31 +7,56 @@ time: "1h 15m"
 output: "3 dozen"
 tags: ["cupcake", "carrot cake", "pineapple", "cream cheese", "baking", "dessert"]
 featured_image: "/carrot-cake-cupcakes.png"
+ingredients:
+  - section: "Cupcakes"
+    items:
+      - qty: 2
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 1.5
+        unit: "Cups"
+        name: "Granulated Sugar"
+      - qty: 2
+        unit: "tsps"
+        name: "Baking Powder"
+      - qty: 2
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 1
+        unit: "tsps"
+        name: "Salt"
+      - qty: 2
+        unit: "tsps"
+        name: "Cinnamon"
+      - qty: 1.5
+        unit: "Cups"
+        name: "Vegetable Oil"
+      - qty: 4
+        name: "Eggs"
+      - qty: 2
+        unit: "Cups"
+        name: "Grated Carrots"
+      - qty: 1
+        unit: "Can(s)"
+        name: "Crushed Pineapple, undrained"
+      - qty: 2
+        unit: "tsps"
+        name: "Vanilla Extract"
+  - section: "Frosting"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Confectioners' Sugar"
+      - qty: 1
+        unit: "(8oz each) Package"
+        name: "Philadelphia Cream Cheese, softened"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Butter or Margarine, softened"
+      - qty: 1
+        unit: "tsps"
+        name: "Lemon Extract"
 ---
-
-## Ingredients
-
-### Cupcakes
-
-- [ ] 2 Cups - All-Purpose Flour
-- [ ] 1½ Cups - Granulated Sugar
-- [ ] 2 Tsps - Baking Powder
-- [ ] 2 Tsps - Baking Soda
-- [ ] 1 Tsp - Salt
-- [ ] 2 Tsps - Cinnamon
-- [ ] 1½ Cups - Vegetable Oil
-- [ ] 4 Eggs
-- [ ] 2 Cups - Grated Carrots
-- [ ] 1 Can - Crushed Pineapple, undrained
-- [ ] 2 Tsps - Vanilla Extract
-
-### Frosting
-
-- [ ] 1 Box - Confectioners' Sugar
-- [ ] 8 Oz Philadelphia Cream Cheese, softened
-- [ ] ¼ Cup - Butter or Margarine, softened
-- [ ] 1 Tsp - Lemon Extract
-
 ## Directions
 
 ### Cupcakes

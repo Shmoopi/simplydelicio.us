@@ -7,21 +7,36 @@ time: "2h 30m"
 output: "6 loaves"
 tags: ["bread", "Easter", "Italian", "eggs"]
 featured_image: "/italian-easter-bread.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "(2¼ Tsps) Package(s)"
+        name: "Instant yeast"
+      - qty: 1.25
+        unit: "Cups"
+        name: "Warm milk"
+      - qty: null
+        name: "Pinch of salt"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Butter, at room temperature"
+      - qty: 2
+        unit: "Eggs"
+        name: "Lightly beaten"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 3.5
+        unit: "Cups"
+        name: "Flour"
+      - qty: null
+        name: "Egg wash (1 egg, beaten with 1 teaspoon of water) (more as needed)"
+      - qty: 6
+        name: "Dyed, uncooked Easter eggs (will cook in the oven)"
+      - qty: null
+        name: "Sprinkles"
 ---
-
-## Ingredients
-
-- [ ] 1 Package (2¼ Tsps) - Instant yeast
-- [ ] 1¼ Cups - Warm milk
-- [ ] Pinch of salt
-- [ ] ⅓ Cup - Butter, at room temperature
-- [ ] 2 Eggs - Lightly beaten
-- [ ] ½ Cup - Sugar
-- [ ] 3½ to 4½ Cups - Flour
-- [ ] Egg wash (1 egg, beaten with 1 teaspoon of water)
-- [ ] 6 Dyed, uncooked Easter eggs (will cook in the oven)
-- [ ] Sprinkles
-
 ## Instructions
 
 1. Mix together the yeast, milk, salt, butter, eggs, and sugar in a large bowl. Add 2 cups of flour and beat until smooth, using the paddle attachment on low speed. Gradually add the rest of the flour until a dough forms.

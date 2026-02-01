@@ -7,20 +7,36 @@ time: "40m"
 output: "12-14 biscuits"
 tags: ["biscuits", "baking", "buttermilk"]
 featured_image: "/buttermilk-biscuits.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 2
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Cold Butter (1 stick)"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Sugar"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 1.5
+        unit: "Tsps"
+        name: "Baking Powder"
+      - qty: 0.5
+        unit: "Cup"
+        name: "Milk"
+      - qty: 0.5
+        unit: "Cup"
+        name: "Buttermilk"
+      - qty: null
+        name: "Melted Butter (for brushing on top of baked biscuits)"
 ---
-
-## Ingredients
-
-- [ ] 2 Cups - All-Purpose Flour
-- [ ] ½ Cup - Cold Butter (1 stick)
-- [ ] 1½ Tsps - Salt
-- [ ] 1 Tbsp - Sugar
-- [ ] ½ Tsp - Baking Soda
-- [ ] 1½ Tsps - Baking Powder
-- [ ] ½ Cup - Milk
-- [ ] ½ Cup - Buttermilk
-- [ ] Melted Butter (for brushing on top of baked biscuits)
-
 ## Instructions
 
 1. Preheat your oven to 400 degrees Fahrenheit (200°C) and grease a cookie sheet or baking pan.

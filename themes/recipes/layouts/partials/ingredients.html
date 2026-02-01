@@ -1,0 +1,79 @@
+{{/* Ingredients partial with recipe scaling */}}
+{{/* Expects page context with .Params.ingredients */}}
+
+{{/* Generate all 4 scale versions */}}
+{{ $scales := slice 1 2 3 4 }}
+{{ $ingredients := .Params.ingredients }}
+
+{{ range $scale := $scales }}
+<div class="ingredients-{{ $scale }}x ingredients-section">
+    <h2>Ingredients{{ if gt $scale 1 }} <span class="scale-indicator">({{ $scale }}×)</span>{{ end }}</h2>
+
+    {{ range $ingredients }}
+        {{ if .section }}
+        <h3>{{ .section }}</h3>
+        {{ end }}
+
+        <ul>
+        {{ range .items }}
+            {{- $item := . -}}
+            <li>
+                <label>
+                    <input type="checkbox">
+                    <span>
+                        {{- if $item.qty -}}
+                            {{- $qty := $item.qty -}}
+                            {{- $unit := $item.unit | default "" -}}
+                            {{- /* Check if qty is a string (like "4-6") vs number */}}
+                            {{- if eq (printf "%T" $qty) "string" -}}
+                                {{- /* String quantity - don't scale, display as-is */}}
+                                {{- $qty }}{{ if $unit }} {{ $unit }}{{ end }} - {{ $item.name -}}
+                            {{- else -}}
+                                {{- /* Convert to float and scale */}}
+                                {{- $floatQty := float $qty -}}
+                                {{- $floatScale := float $scale -}}
+                                {{- $scaledQty := mul $floatQty $floatScale -}}
+                                {{- $whole := math.Floor $scaledQty -}}
+                                {{- $frac := sub $scaledQty $whole -}}
+                                {{- /* Build display string */}}
+                                {{- $displayQty := "" -}}
+                                {{- if lt $frac 0.05 -}}
+                                    {{- /* Whole number only */}}
+                                    {{- $displayQty = printf "%.0f" $scaledQty -}}
+                                {{- else -}}
+                                    {{- /* Has fractional part - find matching fraction */}}
+                                    {{- $fracStr := "" -}}
+                                    {{- if and (gt $frac 0.10) (lt $frac 0.15) -}}{{- $fracStr = "⅛" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.23) (lt $frac 0.27) -}}{{- $fracStr = "¼" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.31) (lt $frac 0.36) -}}{{- $fracStr = "⅓" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.355) (lt $frac 0.395) -}}{{- $fracStr = "⅜" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.48) (lt $frac 0.52) -}}{{- $fracStr = "½" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.605) (lt $frac 0.645) -}}{{- $fracStr = "⅝" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.64) (lt $frac 0.69) -}}{{- $fracStr = "⅔" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.73) (lt $frac 0.77) -}}{{- $fracStr = "¾" -}}{{- end -}}
+                                    {{- if and (gt $frac 0.855) (lt $frac 0.90) -}}{{- $fracStr = "⅞" -}}{{- end -}}
+                                    {{- if eq $fracStr "" -}}
+                                        {{- /* No matching fraction, show as decimal */}}
+                                        {{- $displayQty = printf "%.1f" $scaledQty -}}
+                                    {{- else if eq $whole 0.0 -}}
+                                        {{- /* Just the fraction, no whole number */}}
+                                        {{- $displayQty = $fracStr -}}
+                                    {{- else -}}
+                                        {{- /* Whole number + fraction */}}
+                                        {{- $displayQty = printf "%.0f%s" $whole $fracStr -}}
+                                    {{- end -}}
+                                {{- end -}}
+                                {{- $displayQty }}{{ if $unit }} {{ $unit }}{{ end }} - {{ $item.name -}}
+                            {{- end -}}
+                        {{- else -}}
+                            {{- /* No quantity */}}
+                            {{- $item.name -}}
+                        {{- end }}
+                    </span>
+                </label>
+            </li>
+        {{ end }}
+        </ul>
+    {{ end }}
+</div>
+{{ end }}

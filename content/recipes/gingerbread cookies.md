@@ -7,28 +7,47 @@ time: "2h 30m"
 output: "3 dozen cookies"
 tags: ["gingerbread", "cookies", "royal icing", "holiday", "baking"]
 featured_image: "/gingerbread-cookies.png"
+ingredients:
+  - section: "Gingerbread Cookies"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Butter, softened at room temperature (preferably salted)"
+      - qty: 1
+        unit: "Cups"
+        name: "Light Brown Sugar, packed"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Molasses (do NOT use blackstrap)"
+      - qty: 3
+        unit: "Cups"
+        name: "All-Purpose Flour, spooned and leveled"
+      - qty: 2.5
+        unit: "tsps"
+        name: "Ground Ginger"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Cinnamon"
+      - qty: null
+        name: "Pinch of Nutmeg"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Salt"
+  - section: "Royal Icing"
+    items:
+      - qty: 2
+        unit: "Cups"
+        name: "Powdered Sugar"
+      - qty: 1.5
+        unit: "Tbsps"
+        name: "Meringue Powder"
+      - qty: 4
+        unit: "Tbsps"
+        name: "Water (more as needed)"
 ---
-
-## Ingredients
-
-### Gingerbread Cookies
-
-- [ ] 1 Cup - Butter, softened at room temperature (preferably salted)
-- [ ] 1 Cup - Light Brown Sugar, packed
-- [ ] ½ Cup - Molasses (do NOT use blackstrap)
-- [ ] 3 Cups - All-Purpose Flour, spooned and leveled
-- [ ] 2½ Tsps - Ground Ginger
-- [ ] 1½ Tsps - Cinnamon
-- [ ] Pinch of Nutmeg
-- [ ] ½ Tsp - Baking Soda
-- [ ] ½ Tsp - Salt
-
-### Royal Icing
-
-- [ ] 2 Cups - Powdered Sugar
-- [ ] 1½ Tbsps - Meringue Powder
-- [ ] 4-6 Tbsps - Water
-
 ## Instructions
 
 ### Make the Cookie Dough

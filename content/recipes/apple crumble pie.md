@@ -7,30 +7,46 @@ time: "1h 30m"
 output: "9\" pie"
 tags: ["apple", "pie", "fruit", "dessert"]
 featured_image: "/crumble-apple-pie.png"
+ingredients:
+  - section: "Pie Filling"
+    items:
+      - qty: 0.667
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 2
+        unit: "Tbsps"
+        name: "All-Purpose Flour"
+      - qty: 0.75
+        unit: "tsps"
+        name: "Ground Cinnamon"
+      - qty: 8
+        name: "Tart Apples (Granny Smith), Peeled, Cored, and Sliced"
+  - section: "Pie Crust"
+    items:
+      - qty: 1.25
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Shortening or Lard"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Cold Water (more if needed)"
+  - section: "Crumble Topping"
+    items:
+      - qty: 1.5
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Unsalted Butter"
 ---
-
-## Ingredients
-
-### Pie Filling
-
-- [ ] ⅔ Cup - Sugar
-- [ ] 2 Tbsps - All-Purpose Flour
-- [ ] ¾ Tsp - Ground Cinnamon
-- [ ] 8 - Tart Apples (Granny Smith), Peeled, Cored, and Sliced
-
-### Pie Crust
-
-- [ ] 1¼ Cups - All-Purpose Flour
-- [ ] ¼ Tsp - Salt
-- [ ] ⅓ Cup - Shortening or Lard
-- [ ] 3-4 Tbsps - Cold Water
-
-### Crumble Topping
-
-- [ ] 1½ Cups - All-Purpose Flour
-- [ ] ¾ Cup - Sugar
-- [ ] ¾ Cup - Unsalted Butter
-
 ## Directions
 
 ### Pie Filling

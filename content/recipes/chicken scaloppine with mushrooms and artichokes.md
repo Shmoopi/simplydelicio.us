@@ -7,34 +7,63 @@ time: "1h"
 output: "4 servings"
 tags: ["dinner", "italian", "chicken", "mushroom"]
 featured_image: "/chicken-scaloppine.png"
+ingredients:
+  - section: "Chicken and Pasta"
+    items:
+      - qty: 0.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Black Pepper"
+      - qty: 0.5
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 4
+        name: "Boneless Skinless Chicken Breasts (About 6oz Each)"
+      - qty: 5
+        unit: "Tbsps"
+        name: "Butter, Divided"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Olive Oil, Divided"
+      - qty: 1
+        unit: "Package(s)"
+        name: "Diced Pancetta (3-4oz) Or ⅕ Cup Diced Prosciutto"
+      - qty: 1
+        name: "Sliced Mushrooms"
+      - qty: 1
+        unit: "(14oz) Can(s)"
+        name: "Artichoke Hearts, Sliced"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Capers, Rinsed"
+      - qty: 1
+        unit: "(16oz) Package(s)"
+        name: "Angel Hair Pasta, Cooked And Drained"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Chopped Fresh Parsley (Optional)"
+  - section: "Sauce"
+    items:
+      - qty: 0.334
+        unit: "Cups"
+        name: "Lemon Juice"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Dry White Wine"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Whipping Cream"
+      - qty: 2
+        unit: "tsps"
+        name: "Cornstarch"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Chicken Broth"
+      - qty: null
+        name: "Pinch - Black Pepper"
 ---
-
-## Ingredients
-
-### Chicken and Pasta
-
-- [ ] ½ Tsp - Salt
-- [ ] ¼ Tsp - Black Pepper
-- [ ] ½ Cup - All-Purpose Flour
-- [ ] 4 - Boneless Skinless Chicken Breasts (About 6 Ounces Each)
-- [ ] 5 Tbsps - Butter, Divided
-- [ ] 2 Tbsps - Olive Oil, Divided
-- [ ] 1 Package (3-4 Ounces) - Diced Pancetta Or ⅕ Cup Diced Prosciutto
-- [ ] 1 Pound - Sliced Mushrooms
-- [ ] 1 Can (14 Ounces) - Artichoke Hearts, Sliced
-- [ ] 3 Tbsps - Capers, Rinsed
-- [ ] 1 Package (16 Ounces) - Angel Hair Pasta, Cooked And Drained
-- [ ] ⅓ Cup - Chopped Fresh Parsley (Optional)
-
-### Sauce
-
-- [ ] ⅓ Cup - Lemon Juice
-- [ ] 3 Tbsps - Dry White Wine
-- [ ] ¾ Cup - Whipping Cream
-- [ ] 2 Tsps - Cornstarch
-- [ ] ¾ Cup - Chicken Broth
-- [ ] Pinch - Black Pepper
-
 ## Directions
 
 ### Chicken and Pasta

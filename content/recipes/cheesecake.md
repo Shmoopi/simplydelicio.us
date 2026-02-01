@@ -7,25 +7,38 @@ time: "2h"
 output: "1 cake"
 tags: ["cheesecake", "dessert", "baking", "cream cheese"]
 featured_image: "/cheesecake.png"
+ingredients:
+  - section: "Graham Cracker Crust"
+    items:
+      - qty: 1.5
+        unit: "Cups"
+        name: "Graham Cracker Crumbs (about 12 graham crackers)"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Granulated Sugar"
+      - qty: 6
+        unit: "Tbsps"
+        name: "Unsalted Butter, melted"
+  - section: "Cream Cheese Filling"
+    items:
+      - qty: 4
+        unit: "(8oz each) Package"
+        name: "Full-Fat Cream Cheese (32oz Total)"
+      - qty: 1.667
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Cornstarch"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Pure Vanilla Extract"
+      - qty: 2
+        name: "Large Eggs"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Heavy Whipping Cream"
 ---
-
-## Ingredients
-
-### Graham Cracker Crust
-
-- [ ] 1½ Cups - Graham Cracker Crumbs (about 12 graham crackers)
-- [ ] ¼ Cup - Granulated Sugar
-- [ ] 6 Tbsps - Unsalted Butter, melted
-
-### Cream Cheese Filling
-
-- [ ] 4 (8 Ounces each - 32 Ounces Total) - Packages of full-fat Cream Cheese
-- [ ] 1⅔ Cups - Sugar
-- [ ] ¼ Cup - Cornstarch
-- [ ] 1 Tbsp - Pure Vanilla Extract
-- [ ] 2 - Large Eggs
-- [ ] ¾ Cup - Heavy Whipping Cream
-
 ## Instructions
 
 ### Graham Cracker Crust

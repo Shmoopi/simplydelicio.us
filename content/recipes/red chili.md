@@ -7,40 +7,73 @@ time: "40m"
 output: "6 servings"
 tags: ["beef", "chili", "comfort food", "hearty", "dinner"]
 featured_image: "/red-chili.png"
+ingredients:
+  - section: "Base"
+    items:
+      - qty: 1
+        unit: "Tbsps"
+        name: "Olive Oil"
+      - qty: 1
+        unit: "Medium Sized"
+        name: "Yellow Onion, diced"
+      - qty: 1
+        unit: "Pound(s)"
+        name: "90% Lean Ground Beef"
+      - qty: 2.5
+        unit: "Tbsps"
+        name: "Chili Powder"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Ground Cumin"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Granulated Sugar"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Tomato Paste"
+      - qty: 1
+        unit: "Tbsp"
+        name: "Garlic Powder"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Ground Black Pepper"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Ground Cayenne Pepper (optional)"
+      - qty: 1.5
+        unit: "Cups"
+        name: "Beef Broth"
+      - qty: 1
+        unit: "(15oz) Can(s)"
+        name: "Petite Diced Tomatoes"
+      - qty: 1
+        unit: "(16oz) Can(s)"
+        name: "Red Kidney Beans, drained and rinsed"
+      - qty: 1
+        unit: "(8oz) Can(s)"
+        name: "Tomato Sauce"
+  - section: "Toppings"
+    items:
+      - qty: null
+        name: "Jalapeños"
+      - qty: null
+        name: "Cheddar Cheese"
+      - qty: null
+        name: "Sour Cream"
+      - qty: null
+        name: "Lime Juice"
+  - section: "Optional"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Macaroni Noodles"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Butter"
 ---
-
-## Ingredients
-
-### Base
-
-- [ ] 1 Tbsp - Olive Oil
-- [ ] 1 Medium Sized - Yellow Onion, diced
-- [ ] 1lb - 90% Lean Ground Beef
-- [ ] 2½ Tbsps - Chili Powder
-- [ ] 2 Tbsps - Ground Cumin
-- [ ] 2 Tbsps - Granulated Sugar
-- [ ] 2 Tbsps - Tomato Paste
-- [ ] 1 Tbsp - Garlic Powder
-- [ ] 1½ Tsps - Salt
-- [ ] ½ Tsp - Ground Black Pepper
-- [ ] ¼ Tsp - Ground Cayenne Pepper (optional)
-- [ ] 1½ Cups - Beef Broth
-- [ ] 1 Can (15 oz.) - Petite Diced Tomatoes
-- [ ] 1 Can (16 oz.) - Red Kidney Beans, drained and rinsed
-- [ ] 1 Can (8 oz.) - Tomato Sauce
-
-### Toppings
-
-- [ ] Jalapeños
-- [ ] Cheddar Cheese
-- [ ] Sour Cream
-- [ ] Lime Juice
-
-### Optional
-
-- [ ] 1 Box - Macaroni Noodles
-- [ ] 2 Tbsps - Butter
-
 ## Directions
 
 1. Add the olive oil to a large soup pot and place it over medium-high heat for two minutes. Add the diced onion. Cook for 5 minutes, stirring occasionally.

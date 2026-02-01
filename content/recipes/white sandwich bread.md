@@ -7,17 +7,28 @@ time: "2h"
 output: "1 loaf"
 tags: ["bread", "sandwich", "french"]
 featured_image: "/white-sandwich-bread.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Lukewarm Water"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Honey"
+      - qty: 1
+        unit: "(2¼ Tsps) Package(s)"
+        name: "Active Dry Yeast"
+      - qty: 3
+        unit: "Cups"
+        name: "Bread Flour"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Olive Oil"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Salt"
 ---
-
-## Ingredients
-
-- [ ] 1 Cup - Lukewarm Water
-- [ ] 1 Tbsp - Honey
-- [ ] 2¼ Tsps - Active Dry Yeast
-- [ ] 3 Cups - Bread Flour
-- [ ] 2 Tbsps - Olive Oil
-- [ ] 1½ Tsps - Salt
-
 ## Directions
 
 1. Combine the lukewarm water, honey, and yeast in a bowl, stir and set aside.

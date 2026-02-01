@@ -7,21 +7,40 @@ time: "45m"
 output: "1 pan"
 tags: ["dessert", "parfait", "salad"]
 featured_image: "/pretzel-salad.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 2
+        unit: "Cups"
+        name: "Pretzels, crushed"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Sugar"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Margarine, melted"
+      - qty: 1
+        unit: "(8oz) Package(s)"
+        name: "Cream Cheese"
+      - qty: 1
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 4
+        unit: "Tbsps"
+        name: "Crushed Pineapple, drained"
+      - qty: 8
+        unit: "Ounces"
+        name: "Cool Whip®"
+      - qty: 1
+        unit: "Large Package"
+        name: "Raspberry Gelatin Powder"
+      - qty: 2
+        unit: "Cups"
+        name: "Boiling Water"
+      - qty: 10
+        unit: "Ounces"
+        name: "Frozen Raspberries"
 ---
-
-## Ingredients
-
-- [ ] 2 Cups - Pretzels, crushed
-- [ ] 3 Tbsps - Sugar
-- [ ] ¾ Cup - Margarine, melted
-- [ ] 8 Ounces (1 Package) - Cream Cheese
-- [ ] 1 Cup - Sugar
-- [ ] 4 Tbsps - Crushed Pineapple, drained
-- [ ] 8 Ounces - Cool Whip®
-- [ ] 1 Large Package - Raspberry Gelatin Powder
-- [ ] 2 Cups - Boiling Water
-- [ ] 10 Ounces - Frozen Raspberries
-
 ## Directions
 
 1. Preheat the oven to 400°F (200°C).

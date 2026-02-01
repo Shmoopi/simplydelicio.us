@@ -7,20 +7,36 @@ time: "45m"
 output: "48 cookies"
 tags: ["cookies", "white chocolate", "raspberry", "dessert"]
 featured_image: "/white-chocolate-raspberry-cookies.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 0.5
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Butter (No Substitutes)"
+      - qty: 1.75
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 2
+        name: "Eggs"
+      - qty: 8
+        unit: "Ounces"
+        name: "White Chocolate Baking Bar"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Seedless Raspberry Jam"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Shortening"
+      - qty: 1
+        unit: "Cups"
+        name: "Sugar"
 ---
-
-## Ingredients
-
-- [ ] ½ Tsp - Baking Soda
-- [ ] 2 Tbsps - Butter (No Substitutes)
-- [ ] 1¾ Cups - All-Purpose Flour
-- [ ] ½ Tsp - Salt
-- [ ] 2 - Eggs
-- [ ] 8 Ounces - White Chocolate Baking Bar
-- [ ] ½ Cup - Seedless Raspberry Jam
-- [ ] ½ Tsp - Shortening
-- [ ] 1 Cup - Sugar
-
 ## Directions
 
 1. Chop half (4 ounces) of the white baking bar; set aside. Cut up the other half (4 ounces) of the white baking bar and melt in a heavy small saucepan over low heat, stirring constantly; cool.

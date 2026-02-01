@@ -7,29 +7,50 @@ time: "30m"
 output: "8 scones"
 tags: ["scones", "baking", "breakfast"]
 featured_image: "/buttermilk-scones.png"
+ingredients:
+  - section: "Scones"
+    items:
+      - qty: 3
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 2.5
+        unit: "tsps"
+        name: "Baking Powder"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 0.75
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Unsalted Butter, firm, cut into small pieces"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Currants"
+      - qty: 1
+        unit: "tsps"
+        name: "Grated Orange Peel"
+      - qty: 1
+        unit: "Cups"
+        name: "Buttermilk"
+  - section: "Glaze"
+    items:
+      - qty: 1
+        unit: "Tbsps"
+        name: "Milk"
+      - qty: 2
+        unit: "Cups"
+        name: "Confectioner's Sugar"
+      - qty: null
+        name: "Warm Water (as needed)"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
 ---
-
-## Ingredients
-
-### Scones
-
-- [ ] 3 Cups - All-Purpose Flour
-- [ ] ½ Cup - Sugar
-- [ ] 2½ Tsps - Baking Powder
-- [ ] ½ Tsp - Baking Soda
-- [ ] ¾ Tsp - Salt
-- [ ] ¾ Cup - Unsalted Butter, firm, cut into small pieces
-- [ ] ¾ Cup - Currants
-- [ ] 1 Tsp - Grated Orange Peel
-- [ ] 1 Cup - Buttermilk
-
-### Glaze
-
-- [ ] 1 Tbsp - Milk
-- [ ] 2 Cups - Confectioner's Sugar
-- [ ] Warm Water (as needed)
-- [ ] 1 Tsp - Vanilla Extract
-
 ## Directions
 
 1. Preheat the oven to 425°F (220°C) and lightly grease baking sheets.

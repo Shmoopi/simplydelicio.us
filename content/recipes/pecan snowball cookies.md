@@ -7,18 +7,31 @@ time: "45m"
 output: "Approximately 36 cookies"
 tags: ["cookies", "pecans", "dessert"]
 featured_image: "/pecan-snowball-cookies.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 2
+        unit: "Cups"
+        name: "Finely Chopped Pecans"
+      - qty: 1
+        unit: "Cups"
+        name: "Unsalted Butter"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Granulated Sugar"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Kosher Salt"
+      - qty: 2
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 1
+        unit: "Cups"
+        name: "Powdered Sugar"
 ---
-
-## Ingredients
-
-- [ ] 2 Cups - Finely Chopped Pecans
-- [ ] 1 Cup - Unsalted Butter
-- [ ] ⅓ Cup - Granulated Sugar
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] ¼ Tsp - Kosher Salt
-- [ ] 2 Cups - All-Purpose Flour
-- [ ] 1 Cup - Powdered Sugar
-
 ## Directions
 
 1. Preheat oven to 350°F. Place chopped pecans in a 9-by-13-inch metal baking dish.

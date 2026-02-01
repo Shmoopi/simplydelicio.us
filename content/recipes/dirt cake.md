@@ -7,20 +7,36 @@ time: "30m"
 output: "4 cups"
 tags: ["cake", "parfait", "dessert"]
 featured_image: "/dirt-cake.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "(8oz) Package(s)"
+        name: "Cream Cheese"
+      - qty: 1
+        unit: "(8 Tbsp) Stick(s)"
+        name: "Margarine"
+      - qty: 1
+        unit: "Package(s)"
+        name: "Instant Vanilla Pudding"
+      - qty: 3
+        unit: "Cups"
+        name: "Milk"
+      - qty: 1
+        unit: "Cups"
+        name: "Sugar, Confectionary"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 12
+        unit: "Ounces"
+        name: "Cool Whip®"
+      - qty: 20
+        unit: "Ounces"
+        name: "Oreo Cookies"
+      - qty: null
+        name: "Gummy worms and flowers (for garnish)"
 ---
-
-## Ingredients
-
-- [ ] 8 Ozs - Cream Cheese
-- [ ] 1 Stick (8 Tbsp) - Margarine
-- [ ] 1 Package - Instant Vanilla Pudding
-- [ ] 3 Cups - Milk
-- [ ] 1 Cup - Sugar, Confectionary
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] 12 Ozs - Cool Whip®
-- [ ] 20 Ozs - Oreo Cookies
-- [ ] Gummy worms and flowers (for garnish)
-
 ## Directions
 
 1. In a large mixing bowl, cream together the cream cheese, margarine, instant vanilla pudding, milk, sugar, and vanilla extract until well combined.

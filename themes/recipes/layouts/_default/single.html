@@ -41,10 +41,37 @@
         {{ end }}
       </div>
     </header>
+
+    {{/* Recipe scaling with ingredients from frontmatter */}}
+    {{ with .Params.ingredients }}
+    <div class="content recipe-content" style="margin-top: 1em;">
+      {{/* Hidden radio inputs for CSS-only scale switching */}}
+      <input type="radio" name="scale" id="scale-1" checked class="scale-radio">
+      <input type="radio" name="scale" id="scale-2" class="scale-radio">
+      <input type="radio" name="scale" id="scale-3" class="scale-radio">
+      <input type="radio" name="scale" id="scale-4" class="scale-radio">
+
+      {{/* Scale buttons */}}
+      <div class="scale-buttons">
+        <label for="scale-1" class="scale-btn">1&times;</label>
+        <label for="scale-2" class="scale-btn">2&times;</label>
+        <label for="scale-3" class="scale-btn">3&times;</label>
+        <label for="scale-4" class="scale-btn">4&times;</label>
+      </div>
+
+      {{/* Render scaled ingredients */}}
+      {{ partial "ingredients.html" $ }}
+
+      {{/* Render directions from content (ingredients removed by migration) */}}
+      {{ $.Content | safeHTML }}
+    </div>
+    {{ else }}
+    {{/* Fallback for recipes not yet migrated */}}
     <div class="content" style="margin-top: 1em;">
       <!-- {{ .Content }} -->
       {{ replace .Content "disabled" "enabled" | replaceRE "(<li>)(<input[^>]*?type=\"checkbox\"[^>]*?>)(.*?)(</li>)" "$1<label>$2<span>$3</span></label>$4" | safeHTML }}
     </div>
+    {{ end }}
   </article>
 </div>
 {{ end }}

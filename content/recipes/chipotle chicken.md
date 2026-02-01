@@ -7,29 +7,41 @@ time: "1h 15m"
 output: "8-10 servings"
 tags: ["chicken", "chipotle", "dinner", "grill"]
 featured_image: "/chipotle-chicken.png"
+ingredients:
+  - section: "Marinade"
+    items:
+      - qty: 0.5
+        unit: "Cups"
+        name: "Red Onion (Medium Size), coarsely chopped"
+      - qty: 3
+        unit: "Cloves"
+        name: "Garlic"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Adobo Sauce"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Ancho Chile Powder or 1oz Dried Ancho Chiles, soaked"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Olive Oil or Rice Bran Oil"
+      - qty: 2
+        unit: "tsps"
+        name: "Ground Cumin"
+      - qty: 2
+        unit: "tsps"
+        name: "Dried Oregano"
+      - qty: 4
+        unit: "Pounds"
+        name: "Boneless, Skinless Chicken"
+      - qty: null
+        name: "Salt and Freshly Ground Black Pepper to taste"
 ---
-
-## Ingredients
-
-### Marinade
-
-- [ ] ½ Medium Red Onion, coarsely chopped
-- [ ] 3 Cloves - Garlic
-- [ ] 2 Tbsps - Adobo Sauce
-- [ ] 2 Tbsps - Ancho Chile Powder or 1oz Dried Ancho Chiles, soaked
-- [ ] 2 Tbsps - Olive Oil or Rice Bran Oil
-- [ ] 2 Tsps - Ground Cumin
-- [ ] 2 Tsps - Dried Oregano
-- [ ] 4 Lbs - Boneless, Skinless Chicken
-- [ ] Salt and Freshly Ground Black Pepper to taste
-
-Note: If using dried ancho chiles, soak them in hot water until softened, remove the seeds and stems, and then use them in the marinade. You can adjust the level of spiciness by adding more or less adobo sauce and chile powder.
-
 ## Instructions
 
 ### Marinade
 
-1. In a food processor or blender, combine the red onion, garlic, adobo sauce, ancho chile powder, olive oil, ground cumin, dried oregano, 1 Tsp salt, and ½ Tsp freshly ground black pepper. Blend until smooth.
+1. In a food processor or blender, combine the red onion, garlic, adobo sauce, ancho chile powder, olive oil, ground cumin, dried oregano, salt, and freshly ground black pepper. Blend until smooth.
 2. Pour the blended marinade into a measuring cup and add water to reach 1 Cup.
 3. Place the boneless, skinless chicken in a large freezer-safe plastic bag. Pour the marinade into the bag, close it, and gently massage the marinade into the chicken until it's evenly coated. Place the bag in a dish and refrigerate for at least 30 minutes or overnight.
 

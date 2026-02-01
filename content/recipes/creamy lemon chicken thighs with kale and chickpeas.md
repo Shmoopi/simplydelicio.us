@@ -7,22 +7,42 @@ time: "45mm"
 output: "1 pan"
 tags: ["chicken", "dinner", "cooking", "savory"]
 featured_image: "/creamy-lemon-chicken-thighs-with-kale-and-chickpeas.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 2
+        unit: "Tbsps"
+        name: "Avocado Or Olive Oil"
+      - qty: 1.5
+        unit: "Pounds"
+        name: "Boneless Chicken Thighs"
+      - qty: 1
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Black Pepper"
+      - qty: 1
+        unit: "tsps"
+        name: "Smoked Paprika"
+      - qty: 1
+        unit: "(15oz) Can(s)"
+        name: "Chickpeas, Rinsed"
+      - qty: 2
+        unit: "Cups"
+        name: "Chopped Kale Leaves"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Ghee or Butter"
+      - qty: 1
+        unit: "(15oz) Can(s)"
+        name: "Full-Fat Coconut Milk"
+      - qty: 3
+        unit: "Cloves"
+        name: "Garlic, Minced"
+      - qty: 1
+        name: "Lemon (Zested and Juiced)"
 ---
-
-## Ingredients
-
-- [ ] 2 Tbsps - Avocado Or Olive Oil
-- [ ] 1½ Lbs - Boneless Chicken Thighs
-- [ ] 1 Tsp - Salt
-- [ ] ½ Tsp - Black Pepper
-- [ ] 1 Tsp - Smoked Paprika
-- [ ] 15oz Can - Chickpeas, Rinsed
-- [ ] 2 Cups - Chopped Kale Leaves
-- [ ] 2 Tbsps - Ghee or Butter
-- [ ] 15oz Can - Full-Fat Coconut Milk
-- [ ] 3 Cloves - Garlic, Minced
-- [ ] 1 Lemon - Zested, Juiced
-
 ## Directions
 
 1. In a large pan, heat the avocado/olive oil over medium-high heat. Pat the chicken thighs dry with a paper towel, then season with salt, pepper and paprika, rubbing the spices all over.

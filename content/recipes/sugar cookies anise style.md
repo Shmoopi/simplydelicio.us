@@ -7,29 +7,48 @@ time: "45m"
 output: "60 cookies"
 tags: ["cookies", "baking", "dessert"]
 featured_image: "/sugar-cookie-anise.png"
+ingredients:
+  - section: "Cookies"
+    items:
+      - qty: 2
+        unit: "Cups"
+        name: "Unsalted Butter, Softened"
+      - qty: 6
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 2.25
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 4.5
+        unit: "Tsps"
+        name: "Baking Powder"
+      - qty: 3
+        name: "Large Eggs"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 1
+        unit: "tsps"
+        name: "Anise Oil"
+      - qty: null
+        name: "Dash of Salt"
+  - section: "Icing"
+    items:
+      - qty: 3
+        unit: "Cups"
+        name: "Powdered Sugar"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Whole Milk (more as needed)"
+      - qty: 1.5
+        unit: "Tbsps"
+        name: "Light Corn Syrup"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: null
+        name: "(Optional) Food Coloring"
 ---
-
-## Ingredients
-
-### Cookies
-
-- [ ] 2 Cups - Unsalted Butter, Softened
-- [ ] 6 Cups - All-Purpose Flour
-- [ ] 2¼ Cups - Sugar
-- [ ] 4½ Tsps - Baking Powder
-- [ ] 3 - Large Eggs
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] 1 Tsp - Anise Oil
-- [ ] Dash of Salt
-
-### Icing
-
-- [ ] 3 Cups - Powdered Sugar
-- [ ] 3-4 Tbsps - Whole Milk
-- [ ] 1½ Tbsps - Light Corn Syrup
-- [ ] ½ Tsp - Vanilla Extract
-- [ ] (Optional) Food Coloring
-
 ## Directions
 
 ### Cookies

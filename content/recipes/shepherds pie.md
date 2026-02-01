@@ -7,38 +7,77 @@ time: "1h"
 output: "1 casserole"
 tags: ["shepherd's pie", "ground beef", "potatoes", "comfort food", "baking"]
 featured_image: "/shepherds-pie.png"
+ingredients:
+  - section: "Meat Filling"
+    items:
+      - qty: 2
+        unit: "Tbsps"
+        name: "Olive Oil"
+      - qty: 1
+        unit: "Cups"
+        name: "Chopped Yellow Onion"
+      - qty: 1
+        unit: "Pound(s)"
+        name: "90% Lean Ground Beef (or Ground Lamb)"
+      - qty: 2
+        unit: "tsps"
+        name: "Dried Parsley Leaves"
+      - qty: 1
+        unit: "tsps"
+        name: "Dried Rosemary Leaves"
+      - qty: 1
+        unit: "tsps"
+        name: "Dried Thyme Leaves"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Ground Black Pepper"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Worcestershire Sauce"
+      - qty: 2
+        name: "Garlic Cloves, minced"
+      - qty: 2
+        unit: "Tbsps"
+        name: "All-Purpose Flour"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Tomato Paste"
+      - qty: 1
+        unit: "Cups"
+        name: "Beef Broth"
+      - qty: 1
+        unit: "Cups"
+        name: "Frozen Mixed Peas & Carrots"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Frozen Corn Kernels"
+  - section: "Potato Topping"
+    items:
+      - qty: 2
+        unit: "Pounds"
+        name: "Russet Potatoes (about 2 large potatoes), peeled and cut into 1-inch cubes"
+      - qty: 8
+        unit: "Tbsps"
+        name: "Unsalted Butter (1 stick)"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Half & Half"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Garlic Powder"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Ground Black Pepper"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Parmesan Cheese"
 ---
-
-## Ingredients
-
-### Meat Filling
-
-- [ ] 2 Tbsps - Olive Oil
-- [ ] 1 Cup - Chopped Yellow Onion
-- [ ] 1lb - 90% Lean Ground Beef (or Ground Lamb)
-- [ ] 2 Tsps - Dried Parsley Leaves
-- [ ] 1 Tsp - Dried Rosemary Leaves
-- [ ] 1 Tsp - Dried Thyme Leaves
-- [ ] ½ Tsp - Salt
-- [ ] ½ Tsp - Ground Black Pepper
-- [ ] 1 Tbsp - Worcestershire Sauce
-- [ ] 2 - Garlic Cloves, minced
-- [ ] 2 Tbsps - All-Purpose Flour
-- [ ] 2 Tbsps - Tomato Paste
-- [ ] 1 Cup - Beef Broth
-- [ ] 1 Cup - Frozen Mixed Peas & Carrots
-- [ ] ½ Cup - Frozen Corn Kernels
-
-### Potato Topping
-
-- [ ] 1½ - 2lb - Russet Potatoes (about 2 large potatoes), peeled and cut into 1-inch cubes
-- [ ] 8 Tbsps - Unsalted Butter (1 stick)
-- [ ] ⅓ Cup - Half & Half
-- [ ] ½ Tsp - Garlic Powder
-- [ ] ½ Tsp - Salt
-- [ ] ¼ Tsp - Ground Black Pepper
-- [ ] ¼ Cup - Parmesan Cheese
-
 ## Instructions
 
 ### Make the Meat Filling

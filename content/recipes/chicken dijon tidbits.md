@@ -7,20 +7,36 @@ time: "30m"
 output: "70 bites"
 tags: ["appetizer", "chicken"]
 featured_image: "/chicken-dijon-tidbits.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "Pounds"
+        name: "Chicken breast, skinned, boned, and cut into ¾-inch cubes"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Butter or margarine"
+      - qty: 1
+        unit: "tsps"
+        name: "Dijon mustard"
+      - qty: 1
+        name: "Garlic clove(s), crushed"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Parsley, minced"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Lemon juice"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Fine dry bread crumbs"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Parmesan cheese (10 oz)"
 ---
-
-## Ingredients
-
-- [ ] 1 Lb - Chicken breast, skinned, boned, and cut into ¾-inch cubes
-- [ ] ¼ Cup - Butter or margarine
-- [ ] 1 Tsp - Dijon mustard
-- [ ] 1 - Garlic clove, crushed
-- [ ] 1 Tbsp - Parsley, minced
-- [ ] ¼ Tsp - Lemon juice
-- [ ] ¼ Tsp - Salt
-- [ ] ½ Cup - Fine dry bread crumbs
-- [ ] ¼ Cup - Parmesan cheese (10 oz)
-
 ## Instructions
 
 1. Cut the chicken breasts into ¾-inch cubes.

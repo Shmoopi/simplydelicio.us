@@ -7,23 +7,44 @@ time: "45m"
 output: "24 cookies"
 tags: ["cookies", "ricotta", "lemon", "dessert"]
 featured_image: "/italian-lemon-ricotta-cookies.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 0.5
+        unit: "Cups"
+        name: "Salted Butter"
+      - qty: 1
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 1
+        name: "Egg(s)"
+      - qty: 1
+        unit: "Cups"
+        name: "Ricotta Cheese"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 2
+        unit: "Cups"
+        name: "All Purpose Flour"
+      - qty: 0.75
+        unit: "tsps"
+        name: "Baking Powder"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 1.5
+        unit: "Cups"
+        name: "Icing Sugar"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Milk"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Lemon Zest"
+      - qty: null
+        name: "Sprinkles"
 ---
-
-## Ingredients
-
-- [ ] ½ Cup - Salted Butter
-- [ ] 1 Cup - Sugar
-- [ ] 1 - Egg
-- [ ] 1 Cup - Ricotta Cheese
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] 2 Cups - All Purpose Flour
-- [ ] ¾ Tsp - Baking Powder
-- [ ] ¼ Tsp - Baking Soda
-- [ ] 1½ Cups - Icing Sugar
-- [ ] 3 Tbsps - Milk
-- [ ] 1 Tbsp - Lemon Zest
-- [ ] Sprinkles
-
 ## Directions
 
 1. In a large bowl blend your softened butter and sugar until it becomes creamy

@@ -7,28 +7,46 @@ time: "1h 30m"
 output: "24 cookies"
 tags: ["cookies", "almond", "icing", "baking", "dessert"]
 featured_image: "/giant-sugar-cookies.png"
+ingredients:
+  - section: "Sugar Cookies"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Salted Butter"
+      - qty: 1
+        unit: "Cups"
+        name: "Granulated Sugar"
+      - qty: 2
+        name: "Eggs"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Almond Extract"
+      - qty: 3
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 2
+        unit: "tsps"
+        name: "Baking Powder"
+  - section: "Sweet Almond Icing"
+    items:
+      - qty: 0.5
+        unit: "Cups"
+        name: "Salted Butter, softened"
+      - qty: 3
+        unit: "Cups"
+        name: "Powdered Sugar"
+      - qty: 1
+        unit: "tsps"
+        name: "Almond Extract"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Milk (more as needed)"
+      - qty: null
+        name: "Food Coloring (optional)"
 ---
-
-## Ingredients
-
-### Sugar Cookies
-
-- [ ] 1 Cup - Salted Butter
-- [ ] 1 Cup - Granulated Sugar
-- [ ] 2 Eggs
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] ½ Tsp - Almond Extract
-- [ ] 3 Cups - All-Purpose Flour
-- [ ] 2 Tsps - Baking Powder
-
-### Sweet Almond Icing
-
-- [ ] ½ Cup - Salted Butter, softened
-- [ ] 3 Cups - Powdered Sugar
-- [ ] 1 Tsp - Almond Extract
-- [ ] 1-3 Tbsps - Milk
-- [ ] Food Coloring (optional)
-
 ## Directions
 
 ### Sugar Cookies

@@ -7,27 +7,37 @@ time: "2h 30m"
 output: "1 pot"
 tags: ["soup", "chicken", "vegetables", "dinner"]
 featured_image: "/sicilian-chicken-soup.png"
+ingredients:
+  - section: "Base"
+    items:
+      - qty: 1
+        name: "Whole Chicken (about 4½ Lbs), giblets removed"
+      - qty: 1
+        name: "Large Yellow Onion, finely chopped"
+      - qty: 3
+        name: "Celery Ribs, cut into ¼-inch dice"
+      - qty: 3
+        name: "Carrots, cut into ¼-inch dice"
+      - qty: 3
+        name: "Green Bell Peppers, cored and cut into ¼-inch dice"
+      - qty: 3
+        name: "Medium Baking Potatoes (such as russet), peeled and cut into ½-inch dice"
+      - qty: 1
+        unit: "(14.5oz) Can(s)"
+        name: "Diced Tomatoes in Juice"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Chopped Fresh Flat-Leaf Parsley"
+      - qty: 4
+        name: "Garlic Cloves, chopped"
+      - qty: null
+        name: "Kosher Salt and Freshly Ground Black Pepper to taste"
+  - section: "Pasta"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Ditalini Pasta"
 ---
-
-## Ingredients
-
-### Base
-
-- [ ] 1 - Whole Chicken (about 4½ Lbs), giblets removed
-- [ ] 1 - Large Yellow Onion, finely chopped
-- [ ] 3 - Celery Ribs, cut into ¼-inch dice
-- [ ] 3 - Carrots, cut into ¼-inch dice
-- [ ] 3 - Green Bell Peppers, cored and cut into ¼-inch dice
-- [ ] 3 - Medium Baking Potatoes (such as russet), peeled and cut into ½-inch dice
-- [ ] 1 Can (14.5 Ounces) - Diced Tomatoes in Juice
-- [ ] ½ Cup - Chopped Fresh Flat-Leaf Parsley
-- [ ] 4 - Garlic Cloves, chopped
-- [ ] Kosher Salt and Freshly Ground Black Pepper to taste
-
-### Pasta
-
-- [ ] 1 Cup - Ditalini Pasta
-
 ## Directions
 
 ### Preparation

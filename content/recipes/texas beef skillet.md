@@ -7,21 +7,39 @@ time: "30m"
 output: "1 skillet"
 tags: ["beef", "tex-mex", "dinner"]
 featured_image: "/texas-beef-skillet.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "Pound(s)"
+        name: "Ground Beef"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Chopped Onions"
+      - qty: 1
+        unit: "(16oz) Can(s)"
+        name: "Canned Tomatoes, cut up"
+      - qty: 1
+        unit: "(15.5oz) Can(s)"
+        name: "Red Kidney Beans (undrained)"
+      - qty: 2
+        unit: "Cups"
+        name: "Instant Rice"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Chopped Green Pepper"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Chili Powder"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Garlic Salt"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Shredded American Cheese"
+      - qty: null
+        name: "Corn Chips, crushed (for topping)"
 ---
-
-## Ingredients
-
-- [ ] 1 Lb - Ground Beef
-- [ ] ¾ Cup - Chopped Onions
-- [ ] 1 Can (16 Ounces) - Canned Tomatoes, cut up
-- [ ] 1 Can (15½ Ounces) - Red Kidney Beans
-- [ ] 2 Cups - Instant Rice
-- [ ] 3 Tbsps - Chopped Green Pepper
-- [ ] 1½ Tsps - Chili Powder
-- [ ] ½ Tsp - Garlic Salt
-- [ ] ¾ Cup - Shredded American Cheese
-- [ ] Corn Chips, crushed (for topping)
-
 ## Directions
 
 1. In a large skillet, cook the ground beef and onions over medium heat until the beef is browned and the onions are tender. Drain any excess fat.

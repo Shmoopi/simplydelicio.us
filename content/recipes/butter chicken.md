@@ -7,35 +7,60 @@ time: "30m"
 output: "4 servings"
 tags: ["chicken", "marinade", "indian"]
 featured_image: "/butter-chicken.png"
+ingredients:
+  - section: "Marinade"
+    items:
+      - qty: 0.5
+        unit: "Cups"
+        name: "Plain Yogurt (full fat)"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Lemon Juice"
+      - qty: 1
+        unit: "tsps"
+        name: "Turmeric Powder"
+      - qty: 2
+        unit: "tsps"
+        name: "Garam Masala"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Chili Powder or Cayenne Pepper Powder"
+      - qty: 1
+        unit: "tsps"
+        name: "Ground Cumin"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Freshly Grated Ginger"
+      - qty: 2
+        unit: "Cloves"
+        name: "Garlic, crushed"
+      - qty: 1.5
+        unit: "Lbs"
+        name: "Chicken Thigh Fillets, cut into bite-size pieces"
+  - section: "Curry"
+    items:
+      - qty: 2
+        unit: "Tbsps"
+        name: "Ghee or Butter, OR 1/2 amount in Vegetable Oil"
+      - qty: 1
+        unit: "Cups"
+        name: "Tomato Passata (Tomato Puree)"
+      - qty: 1
+        unit: "Cups"
+        name: "Heavy / Thickened Cream"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Sugar"
+      - qty: 1.25
+        unit: "tsps"
+        name: "Salt"
+  - section: "To Serve"
+    items:
+      - qty: null
+        name: "Basmati Rice"
+      - qty: null
+        name: "Coriander/Cilantro (optional, for garnish)"
 ---
-
-## Ingredients
-
-### Marinade
-
-- [ ] ½ Cup - Plain Yogurt (full fat)
-- [ ] 1 Tbsp - Lemon Juice
-- [ ] 1 Tsp - Turmeric Powder
-- [ ] 2 Tsps - Garam Masala
-- [ ] ½ Tsp - Chili Powder or Cayenne Pepper Powder
-- [ ] 1 Tsp - Ground Cumin
-- [ ] 1 Tbsp - Freshly Grated Ginger
-- [ ] 2 Cloves - Garlic, crushed
-- [ ] 1½ Lbs - Chicken Thigh Fillets, cut into bite-size pieces
-
-### Curry
-
-- [ ] 2 Tbsps - Ghee or Butter, OR 1 Tbsp - Vegetable Oil
-- [ ] 1 Cup - Tomato Passata (Tomato Puree)
-- [ ] 1 Cup - Heavy / Thickened Cream
-- [ ] 1 Tbsp - Sugar
-- [ ] 1¼ Tsps - Salt
-
-### To Serve
-
-- [ ] Basmati Rice
-- [ ] Coriander/Cilantro (optional, for garnish)
-
 ## Instructions
 
 ### Marinade

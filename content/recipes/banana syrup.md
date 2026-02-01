@@ -7,15 +7,21 @@ time: "10m"
 output: "3 cups"
 tags: ["banana", "syrup", "fruit", "breakfast", "pancakes"]
 featured_image: "/banana-syrup.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "Tbsps"
+        name: "Unsalted Butter"
+      - qty: 0.334
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 2
+        name: "Ripe Mashed Bananas (not green or completely brown) - more as needed"
 ---
-
-## Ingredients
-
-- [ ] 1 Tbsp - Unsalted Butter
-- [ ] ⅓ Cup - Sugar
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] 2-3 - Ripe Mashed Bananas (not green or completely brown)
-
 ## Directions
 
 1. In a small sauce pot, melt the butter over medium heat.

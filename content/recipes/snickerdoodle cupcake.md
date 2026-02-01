@@ -7,31 +7,56 @@ time: "45m"
 output: "6 cookies"
 tags: ["cookies", "snickerdoodle", "dessert", "sweet"]
 featured_image: "/snickerdoodle-cupcake-cookies.png"
+ingredients:
+  - section: "Cookies"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Butter"
+      - qty: 1
+        unit: "Cups"
+        name: "Brown Sugar"
+      - qty: 0.5
+        unit: "Cups"
+        name: "White Sugar"
+      - qty: 2
+        name: "Eggs"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla"
+      - qty: 3.5
+        unit: "Cups"
+        name: "Flour"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Cornstarch"
+      - qty: 1
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 1
+        unit: "tsps"
+        name: "Salt"
+      - qty: 1
+        unit: "Tbsps"
+        name: "White Sugar"
+      - qty: 1
+        unit: "tsps"
+        name: "Cinnamon"
+  - section: "Icing"
+    items:
+      - qty: 0.5
+        unit: "Cups"
+        name: "Butter (Room Temperature)"
+      - qty: 1
+        unit: "(8oz) Package(s)"
+        name: "Cream Cheese (Room Temperature)"
+      - qty: 3
+        unit: "Cups"
+        name: "Powdered Sugar"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla"
 ---
-
-## Ingredients
-
-### Cookies
-
-- [ ] 1 Cup - Butter
-- [ ] 1 Cup - Brown Sugar
-- [ ] ½ Cup - White Sugar
-- [ ] 2 - Eggs
-- [ ] 1 Tsp - Vanilla
-- [ ] 3½ Cups - Flour
-- [ ] 1 Tbsp - Cornstarch
-- [ ] 1 Tsp - Baking Soda
-- [ ] 1 Tsp - Salt
-- [ ] 1 Tbsp - White Sugar
-- [ ] 1 Tsp - Cinnamon
-
-### Icing
-
-- [ ] ½ Cup - Butter (Room Temperature)
-- [ ] 8 Ounces - Cream Cheese (Room Temperature)
-- [ ] 3 Cups - Powdered Sugar
-- [ ] 1 Tsp - Vanilla
-
 ## Directions
 
 ### Cookies

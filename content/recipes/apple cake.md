@@ -7,29 +7,48 @@ time: "1h"
 output: "1 cake"
 tags: ["apple", "cake", "baking", "dessert"]
 featured_image: "/apple-cake.png"
+ingredients:
+  - section: "Cake"
+    items:
+      - qty: 3
+        name: "Eggs"
+      - qty: 1.334
+        name: "Cups Sugar"
+      - qty: 1
+        unit: "Cups"
+        name: "Oil"
+      - qty: 2
+        unit: "Cups"
+        name: "Flour"
+      - qty: 1
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Cinnamon"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla"
+      - qty: 4
+        name: "Large Apples, Peeled and Diced"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Nuts (Almonds)"
+  - section: "Topping"
+    items:
+      - qty: 1
+        unit: "Cups"
+        name: "Heavy Cream"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Powdered Sugar"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Cinnamon"
 ---
-
-## Ingredients
-
-### Cake
-
-- [ ] 3 - Eggs
-- [ ] 1⅓ Cups - Sugar
-- [ ] 1 Cup - Oil
-- [ ] 2 Cups - Flour
-- [ ] 1 Tsp - Baking Soda
-- [ ] ¼ Tsp - Salt
-- [ ] ½ Tsp - Cinnamon
-- [ ] 1 Tsp - Vanilla
-- [ ] 4 - Large Apples, Peeled and Diced
-- [ ] ½ Cup - Nuts (Almonds)
-
-### Topping
-
-- [ ] 1 Cup - Heavy Cream
-- [ ] 2 Tbsps - Powdered Sugar
-- [ ] ½ Tsp - Cinnamon
-
 ## Directions
 
 1. Beat eggs until fluffy.

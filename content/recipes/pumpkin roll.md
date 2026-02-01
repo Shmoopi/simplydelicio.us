@@ -7,25 +7,51 @@ time: "30m"
 output: "1 roll"
 tags: ["pumpkin roll", "dessert", "baking", "cream cheese"]
 featured_image: "/pumpkin-roll.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 3
+        name: "Eggs"
+      - qty: 1
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 0.667
+        unit: "Cups"
+        name: "Pumpkin Puree"
+      - qty: 1
+        unit: "tsps"
+        name: "Lemon Juice"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Flour"
+      - qty: 1
+        unit: "tsps"
+        name: "Baking Powder"
+      - qty: 2
+        unit: "tsps"
+        name: "Cinnamon"
+      - qty: 1
+        unit: "tsp"
+        name: "Ground Ginger"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Nutmeg"
+      - qty: 0.5
+        unit: "sps"
+        name: "Salt"
+      - qty: 1
+        unit: "Cups"
+        name: "Powdered Sugar"
+      - qty: 1
+        unit: "(8oz) Package"
+        name: "Cream Cheese"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Butter"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla"
 ---
-
-## Ingredients
-
-- [ ] 3 - Eggs
-- [ ] 1 Cup - Sugar
-- [ ] ⅔ Cup - Pumpkin Puree
-- [ ] 1 Tsp - Lemon Juice
-- [ ] ¾ Cup - Flour
-- [ ] 1 Tsp - Baking Powder
-- [ ] 2 Tsps - Cinnamon
-- [ ] 1 Tsp - Ground Ginger
-- [ ] ½ Tsp - Nutmeg
-- [ ] ½ Tsp - Salt
-- [ ] 1 Cup - Powdered Sugar
-- [ ] 8 Ounces - Cream Cheese
-- [ ] 2 Tbsps - Butter
-- [ ] 1 Tsp - Vanilla
-
 ## Directions
 
 1. Generously grease a large jelly roll pan and line it with wax paper, then grease the paper as well. Sift powdered sugar onto a dish towel that is as big as the pan.

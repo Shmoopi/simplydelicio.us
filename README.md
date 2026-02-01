@@ -41,14 +41,21 @@ time: "Estimated preparation/cooking time (e.x. 1h 30m)"
 output: "Estimated servings or quantity (e.x. 1 pan)"
 tags: ["tag1", "tag2", "tag3"]
 featured_image: "image-name.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        unit: "tsps"
+        name: "Baking Soda"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Butter"
+      - qty: 1.75
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 2
+        name: "Eggs"
 ---
-
-## Ingredients
-
-- [ ] ½ Tsp - Ingredient 1
-- [ ] 2 Tbsps - Ingredient 2
-- [ ] 1¾ Cups - Ingredient 3
-- [ ] ...
 
 ## Directions
 
@@ -57,6 +64,12 @@ featured_image: "image-name.png"
 3. Step 3
 4. ...
 ```
+
+**Ingredient format notes:**
+- `qty`: Numeric value (use decimals like 1.75 for fractions)
+- `unit`: Standard abbreviations (tsp/tsps, Tbsp/Tbsps, Cup/Cups, Lb/Lbs, etc.)
+- `name`: Ingredient name
+- `section`: Optional grouping label (leave empty string for single section)
 
 ### Steps to Contribute
 

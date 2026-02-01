@@ -7,27 +7,43 @@ time: "1h"
 output: "15-20 cookies"
 tags: ["cookies", "lime", "cream", "dessert"]
 featured_image: "/tangy-lime-creams.png"
+ingredients:
+  - section: "Filing"
+    items:
+      - qty: 0.334
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Lime Juice"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Grated Lime Peel"
+      - qty: 1
+        name: "Egg Yolk"
+      - qty: 1
+        unit: "Drop(s)"
+        name: "Green Food Color"
+  - section: "Cookies"
+    items:
+      - qty: 0.5
+        unit: "Cups"
+        name: "Butter (Softened)"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 1
+        name: "Egg Yolk"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla"
+      - qty: 1.25
+        unit: "Cups"
+        name: "All Purpose Flour"
+      - qty: 0.25
+        unit: "tsps"
+        name: "Salt"
 ---
-
-## Ingredients
-
-### Filing
-
-- [ ] ⅓ Cup - Sugar
-- [ ] 2 Tbsps - Lime Juice
-- [ ] 1 Tbsp - Grated Lime Peel
-- [ ] 1 Egg Yolk
-- [ ] 1 Drop - Green Food Color
-
-### Cookies
-
-- [ ] ½ Cup - Butter (Softened)
-- [ ] ¼ Cup - Sugar
-- [ ] 1 Egg Yolk
-- [ ] 1 Tsp - Vanilla
-- [ ] 1¼ Cups - All Purpose Flour
-- [ ] ¼ Tsp - Salt
-
 ## Directions
 
 ### Filing

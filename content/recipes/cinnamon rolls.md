@@ -7,36 +7,61 @@ time: "2h 45m"
 output: "18 rolls"
 tags: ["cinnamon rolls", "baking", "bread", "dessert"]
 featured_image: "/cinnamon-rolls.png"
+ingredients:
+  - section: "Cinnamon Rolls"
+    items:
+      - qty: 1
+        unit: "(2¼ Tsps) Package(s)"
+        name: "Active Dry Yeast"
+      - qty: 1
+        unit: "tsps"
+        name: "Sugar"
+      - qty: 2
+        unit: "Cups"
+        name: "Warm Water"
+      - qty: 1.5
+        unit: "tsps"
+        name: "Salt"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 1
+        name: "Egg, beaten"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Oil"
+      - qty: 7
+        unit: "Cups"
+        name: "All-Purpose Flour"
+      - qty: 1
+        unit: "Stick(s)"
+        name: "Butter or Margarine (Softened)"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Brown Sugar"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Cinnamon"
+  - section: "Icing"
+    items:
+      - qty: 0.5
+        unit: "(8oz) Packages"
+        name: "Cream Cheese (Room Temperature)"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Butter (Room Temperature)"
+      - qty: 2
+        unit: "Cups"
+        name: "Powdered Sugar"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Heavy Cream or Milk"
 ---
-
-## Ingredients
-
-### Cinnamon Rolls
-
-- [ ] 1 Package - Active Dry Yeast
-- [ ] 1 Tsp - Sugar
-- [ ] 2 Cups - Warm Water
-- [ ] 1½ Tsps - Salt
-- [ ] ¾ Cup - Sugar
-- [ ] 1 Egg, beaten
-- [ ] ½ Cup - Oil
-- [ ] 7 Cups - All-Purpose Flour
-- [ ] 1 Stick - Butter or Margarine (Softened)
-- [ ] ¾ Cup - Brown Sugar
-- [ ] 1 Tbsp - Cinnamon
-
-### Icing
-
-- [ ] 4 Ounces - Cream Cheese (Room Temperature)
-- [ ] ½ Cup - Butter (Room Temperature)
-- [ ] 2 Cups - Powdered Sugar
-- [ ] 2 Tbsps - Heavy Cream or Milk
-
 ## Directions
 
 ### Cinnamon Rolls
 
-1. In a small bowl, dissolve the yeast in ¼ Cup of warm water with 1 Tsp of sugar. Let it stand for 10 minutes or until it becomes bubbly.
+1. In a small bowl, dissolve the yeast in ¼ Cup of warm water with 1 Tsp of sugar (per package of yeast). Let it stand for 10 minutes or until it becomes bubbly.
 2. In a large mixing bowl, combine the salt, sugar, and flour.
 3. Next, add the beaten egg, oil, and water.
 4. Add the yeast mixture to the bowl and mix well.

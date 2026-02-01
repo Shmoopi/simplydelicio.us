@@ -7,38 +7,70 @@ time: "1h"
 output: "1 skillet"
 tags: ["cheese", "spinach", "macaroni", "dinner"]
 featured_image: "/tuscan-chicken-mac-and-cheese.png"
+ingredients:
+  - section: "Base"
+    items:
+      - qty: 2
+        name: "Large Chicken Breasts or double the amount of Boneless, Skinless Chicken Thighs"
+      - qty: 1
+        unit: "Tbsps"
+        name: "Olive Oil"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Butter"
+      - qty: 1
+        name: "Yellow Onion(s)"
+      - qty: 6
+        name: "Cloves of Garlic"
+      - qty: 0.334
+        unit: "Cups"
+        name: "White Wine (Can Substitue With Chicken Broth)"
+      - qty: 9
+        unit: "Ounces"
+        name: "Jarred Sun Dried Tomatoes in Oil"
+      - qty: 3
+        unit: "Tbsps"
+        name: "Flour"
+      - qty: 2
+        unit: "Cups"
+        name: "Chicken Broth"
+      - qty: 3
+        unit: "Cups"
+        name: "Light Cream or Milk"
+      - qty: 10
+        unit: "Ounces"
+        name: "Elbow Macaroni Noodles"
+      - qty: 3
+        unit: "Cups"
+        name: "Baby Spinach"
+      - qty: 2
+        unit: "Tbsps"
+        name: "Fresh Parsley"
+      - qty: 1
+        unit: "Cups"
+        name: "Parmesan - Freshly Grated"
+      - qty: 0.75
+        unit: "Cups"
+        name: "Mozzarella Cheese - Shredded"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Cheddar Cheese - Shredded"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Gruyere Cheese - Shredded"
+  - section: "Spices"
+    items:
+      - qty: null
+        name: "Paprika (Sweet or Smokey)"
+      - qty: null
+        name: "Dried Parsley"
+      - qty: null
+        name: "Salt"
+      - qty: null
+        name: "Pepper"
+      - qty: null
+        name: "Dried Italian Herbs"
 ---
-
-## Ingredients
-
-### Base
-
-- [ ] 2 - Large Chicken Breasts or 4 Boneless, Skinless Chicken Thighs
-- [ ] 1 Tbsp - Olive Oil
-- [ ] 2 Tbsps - Butter
-- [ ] 1 - Yellow Onion
-- [ ] 6 - Cloves of Garlic
-- [ ] ⅓ Cup - White Wine (Can Substitue With Chicken Broth)
-- [ ] 9 Ounces - Jarred Sun Dried Tomatoes in Oil
-- [ ] 3 Tbsps - Flour
-- [ ] 2 Cups - Chicken Broth
-- [ ] 3 Cups - Light Cream or Milk
-- [ ] 10 Ounces - Elbow Macaroni Noodles
-- [ ] 3 Cups - Baby Spinach
-- [ ] 2 Tbsps - Fresh Parsley
-- [ ] 1 Cup - Parmesan - Freshly Grated
-- [ ] ¾ Cup - Mozzarella Cheese - Shredded
-- [ ] ½ Cup - Cheddar Cheese - Shredded
-- [ ] ½ Cup - Gruyere Cheese - Shredded
-
-### Spices
-
-- [ ] Paprika (Sweet or Smokey)
-- [ ] Dried Parsley
-- [ ] Salt
-- [ ] Pepper
-- [ ] Dried Italian Herbs
-
 ## Directions
 
 ### Preperation

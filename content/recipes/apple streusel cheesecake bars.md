@@ -7,21 +7,38 @@ time: "3h 40m"
 output: "12 bars"
 tags: ["apple", "dessert", "fruit"]
 featured_image: "/apple-streusel-cheesecake-bars.png"
+ingredients:
+  - section: ""
+    items:
+      - qty: 1
+        name: "Betty Crocker® oatmeal cookie mix"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Firm Butter or Margarine"
+      - qty: 2
+        unit: "(8oz each) Packages"
+        name: "Cream Cheese Softened"
+      - qty: 0.5
+        unit: "Cups"
+        name: "Sugar"
+      - qty: 2
+        unit: "Tbsps"
+        name: "All-Purpose Flour"
+      - qty: 1
+        unit: "tsps"
+        name: "Vanilla Extract"
+      - qty: 1
+        name: "Egg(s)"
+      - qty: 1
+        unit: "(21oz) Can(s)"
+        name: "Apple Pie Filling"
+      - qty: 0.5
+        unit: "tsps"
+        name: "Ground Cinnamon"
+      - qty: 0.25
+        unit: "Cups"
+        name: "Chopped Walnuts"
 ---
-
-## Ingredients
-
-- [ ] 1 Pouch (1lb 1.5oz) - Betty Crocker® oatmeal cookie mix
-- [ ] ½ Cup - Firm Butter or Margarine
-- [ ] 2 Packages (8oz each) - Cream Cheese Softened
-- [ ] ½ Cup - Sugar
-- [ ] 2 Tbsps - All-Purpose Flour
-- [ ] 1 Tsp - Vanilla Extract
-- [ ] 1 - Egg
-- [ ] 1 Can (21oz) - Apple Pie Filling
-- [ ] ½ Tsp - Ground Cinnamon
-- [ ] ¼ Cup - Chopped Walnuts
-
 ## Directions
 
 1. Heat oven to 350°F (180°C).
