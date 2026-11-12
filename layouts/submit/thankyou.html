@@ -1,30 +1,10 @@
 {{ define "main" }}
-<style>
-    .title {
-        text-align: center;
-    }
-
-    .buttons {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .buttons .button {
-        margin: 0 10px;
-    }
-</style>
-<section class="section">
-    <div class="container">
-        <div class="columns is-centered">
-            <div class="column is-half">
-                <h3 class="title" id="title">Thank you for submitting a recipe!</h3>
-                <div class="buttons">
-                    <a href="/" class="button is-link">Go Back Home</a>
-                    <a href="/submit" class="button is-link">Submit Another Recipe</a>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="empty">
+  <h1>Thank you!</h1>
+  <p>Your recipe is on its way to our kitchen.</p>
+  <div class="button-row">
+    <a href="/" class="button">Back to recipes</a>
+    <a href="/submit/" class="button button--ghost">Submit another</a>
+  </div>
 </section>
 {{ end }}

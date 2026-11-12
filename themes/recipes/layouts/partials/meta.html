@@ -1,0 +1,11 @@
+{{- /* Time and yield for a recipe. */ -}}
+{{- if or .Params.time .Params.output }}
+<ul class="meta">
+  {{- with .Params.time }}
+  <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span class="sr-only">Time: </span>{{ . }}</li>
+  {{- end }}
+  {{- with .Params.output }}
+  <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16a8 8 0 0 1-16 0Z"/><path d="M12 3v4M8 5v2M16 5v2"/></svg><span class="sr-only">Makes: </span>{{ . }}</li>
+  {{- end }}
+</ul>
+{{- end }}

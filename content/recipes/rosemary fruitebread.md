@@ -3,7 +3,7 @@ title: "Rosemary Fruitbread"
 summary: "A delightful fruitbread infused with the aromatic flavor of rosemary, perfect for holidays"
 date: 2024-04-23
 draft: false
-time: "1hr"
+time: "1h"
 output: "1 loaf"
 tags: ["bread", "fruitbread", "rosemary", "baking"]
 featured_image: "/rosemary-fruitbread.png"

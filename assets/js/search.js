@@ -1,105 +1,87 @@
-function displayResults(results, store) {
-    const searchResults = document.getElementById('results')
-    if (results.length) {
-        let recipes = []
-        // Iterate and build result list elements
-        for (const n in results) {
-            const item = store[results[n].ref]
-            recipes.push(item)
-        }
-        searchResults.replaceWith(createRecipeColumns(recipes))
-    } else {
-        searchResults.innerHTML = 'No results found.'
-    }
-}
+(function () {
+    const store = window.store || {}
+    const query = new URLSearchParams(window.location.search).get('query')
+    const input = document.getElementById('search-input')
+    const title = document.getElementById('search-title')
+    const count = document.getElementById('search-count')
+    const results = document.getElementById('results')
+    const empty = document.getElementById('no-results')
+    // Same icons as partials/meta.html
+    const ICON_TIME = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
+    const ICON_YIELD = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16a8 8 0 0 1-16 0Z"/><path d="M12 3v4M8 5v2M16 5v2"/></svg>'
 
-// Function to create the columns with recipes
-function createRecipeColumns(recipes) {
-    const columnsContainer = document.createElement("div");
-    columnsContainer.classList.add("columns", "is-centered");
-
-    // Create columns
-    let columns = []
-    for (let i = 0; i <= 3; i++) {
-        const column = document.createElement("div");
-        column.classList.add("column");
-        columnsContainer.appendChild(column);
-        columns.push(column);
+    if (!query) {
+        input.focus()
+        return
     }
 
-    // Add recipe to column
-    recipes.forEach((recipe, index) => {
-        columns[index % 4].innerHTML += createRecipeHTML(recipe);
-    });
-
-    return columnsContainer;
-}
-
-// Function to generate the HTML code for each recipe
-function createRecipeHTML(recipe) {
-    return `
-    <a class="box" href="${recipe.url}" aria-label="${recipe.title}">
-      <figure class="image is-64x64" style="display:block;margin-left:auto;margin-right:auto;">
-        <img alt="/images/small${recipe.featured_image}" class="is-rounded" src="/images/small${recipe.featured_image}">
-      </figure>
-      <div>
-        <div style="margin-top: 0.5em;text-align: center;">${recipe.title}</div>
-        <small class="has-text-grey" style="margin-top: 0.5em;text-align: center;display: block;">${recipe.summary}</small>
-      </div>
-      <div style="margin-top: 1.0em;text-align: center;">
-        <span class="tag is-primary is-light">${recipe.time}</span>
-        <span class="tag is-info is-light">${recipe.output}</span>
-        ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('\n')}
-      </div>
-    </a>
-  `;
-}
-
-// Get the query parameter(s)
-const params = new URLSearchParams(window.location.search)
-const query = params.get('query')
-
-// Perform a search if there is a query
-if (query) {
-    // Retain the search input in the form when displaying results
-    document.getElementById('search-input').setAttribute('value', query)
-    // Set the title element to include the query
-    document.getElementById('title').innerHTML = 'Search results for "' + query + '"'
+    // Retain the query in the form and reflect it in the heading
+    input.value = query
+    title.textContent = `Results for “${query}”`
+    document.title = `${query} · ${document.title}`
 
     const idx = lunr(function () {
-        this.ref('id')
-        this.field('title', {
-            boost: 15
-        })
-        this.field('tags2', {
-            boost: 15
-        })
-        this.field('summary', {
-            boost: 10
-        })
-        this.field('content', {
-            boost: 10
-        })
+        this.ref('url')
+        this.field('title', { boost: 15 })
+        this.field('tags', { boost: 15 })
+        this.field('summary', { boost: 10 })
+        this.field('content', { boost: 10 })
         this.field('time')
         this.field('output')
-        this.field('featured_image')
 
-        for (const key in window.store) {
-            this.add({
-                id: key,
-                title: window.store[key].title,
-                tags2: window.store[key].tags2,
-                summary: window.store[key].summary,
-                time: window.store[key].time,
-                output: window.store[key].output,
-                featuredImage: window.store[key].featured_image,
-                content: window.store[key].content
-            })
+        for (const url in store) {
+            this.add({ url, ...store[url] })
         }
     })
 
-    // Perform the search
-    const results = idx.search(query)
-    // Update the list with results
-    displayResults(results, window.store)
-}
+    let matches = []
+    try {
+        matches = idx.search(query)
+    } catch (e) {
+        // Lunr throws on malformed query syntax (e.g. a trailing ":"), so fall back to plain terms
+        matches = idx.search(query.replace(/[:~^*+\-]/g, ' '))
+    }
+
+    count.textContent = `${matches.length} recipe${matches.length === 1 ? '' : 's'}`
+    if (!matches.length) {
+        empty.hidden = false
+        return
+    }
+    results.replaceChildren(...matches.map(m => createCard(m.ref, store[m.ref])))
+
+    // Builds the same markup as partials/card.html
+    function createCard(url, recipe) {
+        const card = el('a', 'card')
+        card.href = url
+
+        const media = el('div', 'card__media')
+        if (recipe.img) {
+            const img = el('img')
+            Object.assign(img, { src: recipe.img, alt: recipe.title, width: 480, height: 360, loading: 'lazy', decoding: 'async' })
+            media.append(img)
+        }
+
+        const body = el('div', 'card__body')
+        body.append(el('h2', 'card__title', recipe.title))
+        if (recipe.summary) body.append(el('p', 'card__summary', recipe.summary))
+        const meta = el('ul', 'meta')
+        for (const [value, icon, label] of [[recipe.time, ICON_TIME, 'Time: '], [recipe.output, ICON_YIELD, 'Makes: ']]) {
+            if (!value) continue
+            const li = el('li')
+            li.innerHTML = icon
+            li.append(el('span', 'sr-only', label), value)
+            meta.append(li)
+        }
+        if (meta.children.length) body.append(meta)
+
+        card.append(media, body)
+        return card
+    }
+
+    function el(tag, className, text) {
+        const node = document.createElement(tag)
+        if (className) node.className = className
+        if (text) node.textContent = text
+        return node
+    }
+})()

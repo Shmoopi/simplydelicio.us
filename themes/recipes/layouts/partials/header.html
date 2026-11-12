@@ -1,31 +1,20 @@
-<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      {{ with $.Site.Params.logo }}
-      <div class="logo-steam-wrapper">
-        <figure class="image is-32x32">
-          <img alt="{{ $.Site.Title }} logo" class="is-rounded" src="{{ . }}" />
-        </figure>
-        <div class="steam-container">
-          <span class="steam steam-1"></span>
-          <span class="steam steam-2"></span>
-          <span class="steam steam-3"></span>
-        </div>
-      </div>
-      {{ end }}
-      {{ $.Site.Title }}
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/" aria-label="{{ site.Title }} home">
+      {{- with site.Params.logo }}
+      <span class="brand__logo" aria-hidden="true">
+        <img src="{{ . }}" alt="" width="36" height="36">
+        <span class="steam"><i></i><i></i><i></i></span>
+      </span>
+      {{- end }}
+      <span class="brand__name">{{ site.Title }}</span>
     </a>
+    <form class="search" role="search" action="{{ with site.GetPage "/search" }}{{ .RelPermalink }}{{ end }}" method="get">
+      <label class="sr-only" for="search-input">Search recipes</label>
+      <input id="search-input" name="query" type="search" placeholder="Search recipes…" autocomplete="off" enterkeyhint="search">
+      <button type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+    </form>
   </div>
-  <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
-    <div class="field has-addons">
-      <div class="control">
-        <input id="search-input" name="query" class="input" type="text" placeholder="Search Recipes..." />
-      </div>
-      <div class="control">
-        <button type="submit" value="search" class="button is-info">
-          Search
-        </button>
-      </div>
-    </div>
-  </form>
-</nav>
+</header>

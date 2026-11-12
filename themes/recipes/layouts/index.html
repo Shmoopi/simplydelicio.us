@@ -1,50 +1,21 @@
 {{ define "main" }}
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column">
-        <div style="margin-bottom: 1em;text-align: center;">
-          {{ range first 15 $.Site.Taxonomies.tags.ByCount }}
-          <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-          {{ end }}
-          <a class="tag" href="/tags/">...</a>
-        </div>
-      </div>
-    </div>
-
-    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "recipes") }}
-
-    <div class="columns is-centered">
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-        {{ if eq (mod $index 4) 0 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-        {{ if eq (mod $index 4) 1 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-        {{ if eq (mod $index 4) 2 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-        {{ if eq (mod $index 4) 3 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
+<section class="intro">
+  <h1 class="intro__title">Simple recipes, <em>deliciously</em> done.</h1>
 </section>
+
+<nav class="chips chips--row" aria-label="Popular tags">
+  {{- range first 10 site.Taxonomies.tags.ByCount }}
+  <a class="chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+  {{- end }}
+  <a class="chip chip--more" href="/tags/">All tags →</a>
+</nav>
+
+{{ $paginator := .Paginate (where site.RegularPages "Section" "recipes") }}
+{{ partial "card-grid.html" $paginator.Pages }}
 {{ partial "pagination.html" . }}
-<div class="content has-text-centered">
-  <p>
-    <a href="/submit">
-      Submit a Recipe
-    </a>
-  </p>
-</div>
-&nbsp;
+
+<aside class="cta">
+  <p>Have a family favorite worth sharing?</p>
+  <a class="button" href="/submit/">Submit a recipe</a>
+</aside>
 {{ end }}

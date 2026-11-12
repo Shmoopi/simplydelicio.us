@@ -1,20 +1,8 @@
 {{ define "main" }}
-<style>
-    .title {
-        text-align: center;
-    }
-</style>
-
-<section class="section">
-    <div class="container">
-        <div class="columns is-centered">
-            <div class="column is-half">
-                <h1 class="title">404 Recipe Not Found!</h1>
-            </div>
-        </div>
-        <figure class="image" style="margin-right: 0.5em;">
-            <img alt="/404.png" class="is-rounded" src="/404.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/>
-        </figure>
-    </div>
+<section class="empty">
+  <img src="/404.png" alt="" width="320" height="320">
+  <h1>Recipe not found</h1>
+  <p>That page seems to have been eaten. Try a search, or head back to the kitchen.</p>
+  <a class="button" href="/">Back to all recipes</a>
 </section>
 {{ end }}

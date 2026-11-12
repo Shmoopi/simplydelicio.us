@@ -3,7 +3,7 @@ title: "Creamy Lemon Chicken Thighs with Kale and Chickpeas"
 summary: "Crispy chicken thighs with a creamy lemon sauce, served with sautéed kale and chickpeas"
 date: 2024-05-04
 draft: false
-time: "45mm"
+time: "45m"
 output: "1 pan"
 tags: ["chicken", "dinner", "cooking", "savory"]
 featured_image: "/creamy-lemon-chicken-thighs-with-kale-and-chickpeas.png"

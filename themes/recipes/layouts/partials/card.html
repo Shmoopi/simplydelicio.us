@@ -1,0 +1,14 @@
+{{- /* Recipe card. Context: dict "page" <page> "eager" <bool> */ -}}
+{{- $p := .page -}}
+<a class="card" href="{{ $p.RelPermalink }}">
+  <div class="card__media">
+    {{- partial "recipe-img.html" (dict "page" $p "widths" (slice 320 480 640) "ratio" 0.75 "sizes" "(min-width: 1180px) 270px, (min-width: 720px) 30vw, 46vw" "eager" .eager) -}}
+  </div>
+  <div class="card__body">
+    <h2 class="card__title">{{ $p.Title }}</h2>
+    {{- with $p.Params.summary }}
+    <p class="card__summary">{{ . }}</p>
+    {{- end }}
+    {{- partial "meta.html" $p }}
+  </div>
+</a>

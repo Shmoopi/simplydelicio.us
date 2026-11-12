@@ -1,30 +1,35 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
-  <meta name="author" content="{{ .Site.Params.author }}">
-  <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }} · {{ site.Params.description }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  {{- $description := site.Params.description }}
+  {{- with .Params.summary }}{{ $description = . }}{{ end }}
+  <meta name="description" content="{{ $description }}">
+  <meta name="author" content="{{ site.Params.author }}">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#faf6f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#171412" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-  {{ $style := resources.Get "css/bulma.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-  {{ $custom := resources.Get "css/custom.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $custom.Permalink }}">
+
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  {{- with .Params.featured_image }}
+  <meta property="og:image" content="{{ printf "images/large%s" . | absURL }}">
+  <meta name="twitter:card" content="summary_large_image">
+  {{- end }}
+
+  {{- if and .IsPage (eq .Section "recipes") }}
+  {{ partial "recipe-schema.html" . }}
+  {{- end }}
 </head>
-
-<style>
-/* Without Container */
-.zoom-without-container {
-  transition: transform .2s; /* Animation */
-}
-.zoom-without-container:hover {
-  transform: scale(1.5);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-</style>
-

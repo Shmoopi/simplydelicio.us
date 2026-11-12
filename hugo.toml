@@ -1,5 +1,5 @@
 baseURL = 'https://simplydelicio.us/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'SimplyDelicio.us'
 theme = "recipes"
 
@@ -10,3 +10,22 @@ theme = "recipes"
   logo = "/logo.png"
   author = "simplydelicio.us"
   description = "Simple and Delicious Recipes"
+
+# Expose the full-size recipe photos to Hugo's image pipeline so templates can
+# generate responsive WebP variants. Declaring mounts replaces the defaults for
+# those targets, so assets and static are re-declared explicitly.
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/images/large"
+    target = "assets/images/recipes"
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  [imaging.webp]
+    quality = 78

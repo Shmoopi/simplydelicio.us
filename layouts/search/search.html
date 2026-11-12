@@ -1,24 +1,31 @@
 {{ define "main" }}
-.
-<style>
-    .title {
-        text-align: center;
-    }
-</style>
-<section class="section">
-    <div class="container">
-        <div class="columns is-centered">
-            <div class="column is-half">
-                <h3 class="title" id="title">Search for a recipe...</h3>
-            </div>
-        </div>
-        <div id="results">
-            <!-- Search results go here -->
-        </div>
-    </div>
-</section>
+<header class="page-head">
+  <h1 id="search-title">Search for a recipe</h1>
+  <p class="page-head__count" id="search-count"></p>
+</header>
+<div id="results" class="grid" aria-live="polite"></div>
+<p id="no-results" class="empty-note" hidden>No recipes matched. Try a simpler word like “chicken” or “cookies”.</p>
 
-<!-- include our search form -->
-{{ partial "search-form.html" . }}
-
+{{- /* Search index: one entry per recipe, keyed by URL. */ -}}
+{{- $store := dict -}}
+{{- range where site.RegularPages "Section" "recipes" -}}
+  {{- $img := "" -}}
+  {{- with .Params.featured_image -}}
+    {{- with resources.Get (printf "images/recipes/%s" (strings.TrimPrefix "/" .)) -}}
+      {{- $img = (.Process "fill 480x360 webp Center").RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $store = merge $store (dict .RelPermalink (dict
+    "title" .Title
+    "summary" (.Params.summary | default "")
+    "tags" (delimit (.Params.tags | default slice) " ")
+    "content" (.Plain | default "")
+    "time" (.Params.time | default "")
+    "output" (.Params.output | default "")
+    "img" $img
+  )) -}}
+{{- end }}
+<script>window.store = {{ $store | jsonify | safeJS }};</script>
+{{- $js := slice (resources.Get "js/lunr.js") (resources.Get "js/search.js") | resources.Concat "js/search.bundle.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
 {{ end }}

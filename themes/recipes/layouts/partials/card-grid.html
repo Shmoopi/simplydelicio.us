@@ -1,0 +1,6 @@
+{{- /* Grid of recipe cards. Context: slice of pages. The first row loads eagerly. */ -}}
+<div class="grid">
+  {{- range $i, $p := . }}
+  {{ partial "card.html" (dict "page" $p "eager" (lt $i 4)) }}
+  {{- end }}
+</div>

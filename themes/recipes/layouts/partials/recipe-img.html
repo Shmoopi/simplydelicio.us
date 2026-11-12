@@ -1,0 +1,38 @@
+{{- /*
+  Responsive WebP <img> for a recipe's featured image.
+  Params (dict):
+    page    - the recipe page
+    widths  - slice of output widths
+    ratio   - optional height/width ratio; crops (fill) when set, resizes otherwise
+    sizes   - the sizes attribute
+    eager   - load immediately with high priority (use for the LCP image)
+    class   - optional class
+*/ -}}
+{{- $p := .page -}}
+{{- with $p.Params.featured_image -}}
+  {{- $name := strings.TrimPrefix "/" . -}}
+  {{- with resources.Get (printf "images/recipes/%s" $name) -}}
+    {{- $src := . -}}
+    {{- $srcset := slice -}}
+    {{- $fallback := "" -}}
+    {{- range $.widths -}}
+      {{- $w := math.Min . $src.Width | int -}}
+      {{- $img := "" -}}
+      {{- if $.ratio -}}
+        {{- $h := mul (float $w) $.ratio | math.Round | int -}}
+        {{- $img = $src.Process (printf "fill %dx%d webp Center" $w $h) -}}
+      {{- else -}}
+        {{- $img = $src.Process (printf "resize %dx webp" $w) -}}
+      {{- end -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $img.RelPermalink $img.Width) -}}
+      {{- $fallback = $img -}}
+    {{- end -}}
+    <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $.sizes }}"
+      width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ $p.Title }}"
+      {{- with $.class }} class="{{ . }}"{{ end }}
+      {{- if $.eager }} fetchpriority="high"{{ else }} loading="lazy"{{ end }} decoding="async">
+  {{- else -}}
+    <img src="/images/medium{{ . }}" alt="{{ $p.Title }}" width="256" height="256"
+      {{- with $.class }} class="{{ . }}"{{ end }} loading="lazy" decoding="async">
+  {{- end -}}
+{{- end -}}

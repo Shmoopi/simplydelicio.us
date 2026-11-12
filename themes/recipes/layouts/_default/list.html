@@ -1,39 +1,19 @@
-{{ define "main" }}.
-<style>
-  .title {
-    text-align: center;
-  }
-</style>
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <h3 class="title">{{ humanize .Page.Title }}</h3>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column">
-        {{ range $index, $page := .Pages }}
-          {{ if eq (mod $index 4) 0 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := .Pages }}
-          {{ if eq (mod $index 4) 1 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := .Pages }}
-          {{ if eq (mod $index 4) 2 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := .Pages }}
-          {{ if eq (mod $index 4) 3 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
+{{ define "main" }}
+<header class="page-head">
+  {{- with .Parent }}{{ if not .IsHome }}<a class="eyebrow" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
+  <h1>{{ humanize .Title }}</h1>
+  {{- if ne .Kind "taxonomy" }}
+  <p class="page-head__count">{{ len .Pages }} recipe{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+  {{- end }}
+</header>
+{{- if eq .Kind "taxonomy" }}
+{{/* Taxonomy index (e.g. /tags/): every term with its recipe count */}}
+<nav class="chips chips--cloud" aria-label="{{ .Title }}">
+  {{- range .Data.Terms.Alphabetical }}
+  <a class="chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="chip__count">{{ .Count }}</span></a>
+  {{- end }}
+</nav>
+{{- else }}
+{{ partial "card-grid.html" .Pages }}
+{{- end }}
 {{ end }}

@@ -1,0 +1,29 @@
+{{- /* schema.org Recipe structured data for search engine rich results. */ -}}
+{{- $s := dict "@context" "https://schema.org" "@type" "Recipe" "name" .Title "datePublished" (.Date.Format "2006-01-02") "author" (dict "@type" "Organization" "name" site.Title) -}}
+{{- with .Params.summary }}{{ $s = merge $s (dict "description" .) }}{{ end -}}
+{{- with .Params.featured_image }}{{ $s = merge $s (dict "image" (slice (printf "images/large%s" . | absURL))) }}{{ end -}}
+{{- with .Params.output }}{{ $s = merge $s (dict "recipeYield" .) }}{{ end -}}
+{{- with .Params.tags }}{{ $s = merge $s (dict "keywords" (delimit . ", ")) }}{{ end -}}
+{{- with .Params.time -}}
+  {{- $t := lower . | replaceRE `hrs?` "h" | replaceRE `m+` "m" | replaceRE `\s+` "" -}}
+  {{- if findRE `^(\d+h)?(\d+m)?$` $t -}}
+    {{- $s = merge $s (dict "totalTime" (printf "PT%s" (upper $t))) -}}
+  {{- end -}}
+{{- end -}}
+{{- with .Params.ingredients -}}
+  {{- $list := slice -}}
+  {{- range . }}{{ range .items -}}
+    {{- $line := .name -}}
+    {{- if .qty }}{{ $line = printf "%s %s %s" (partial "fmt-qty.html" .qty) (.unit | default "") .name | replaceRE `\s+` " " }}{{ end -}}
+    {{- $list = $list | append $line -}}
+  {{- end }}{{ end -}}
+  {{- $s = merge $s (dict "recipeIngredient" $list) -}}
+{{- end -}}
+{{- $steps := slice -}}
+{{- range findRE `(?s)<ol>.*?</ol>` .Content -}}
+  {{- range findRE `(?s)<li>.*?</li>` . -}}
+    {{- $steps = $steps | append (dict "@type" "HowToStep" "text" (. | plainify | htmlUnescape | strings.TrimSpace)) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $steps }}{{ $s = merge $s (dict "recipeInstructions" .) }}{{ end -}}
+<script type="application/ld+json">{{ $s | jsonify | safeJS }}</script>
